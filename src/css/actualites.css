@@ -1,0 +1,157 @@
+/* ==========================================================================
+   ACTUALITÉS & RÉCENTES CRÉATIONS - ATELIER DAVID BOINNARD
+   ========================================================================== */
+
+.actualites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 2rem;
+}
+
+.actu-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-spruce-border);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: all var(--transition-normal);
+}
+
+.actu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(200, 155, 60, 0.5);
+}
+
+.actu-media {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background-color: #f0eae1;
+  overflow: hidden;
+}
+
+.actu-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-smooth);
+}
+
+.actu-card:hover .actu-img {
+  transform: scale(1.05);
+}
+
+.actu-date-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(22, 16, 11, 0.85);
+  backdrop-filter: blur(6px);
+  color: var(--color-gold-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(200, 155, 60, 0.3);
+}
+
+.actu-status-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--color-sienna);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-xs);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.actu-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.actu-title {
+  font-size: 1.35rem;
+  color: var(--color-walnut-dark);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.actu-desc {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.actu-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-spruce-cream);
+}
+
+.fb-follow-box {
+  margin-top: 3.5rem;
+  background: linear-gradient(135deg, var(--color-spruce-cream) 0%, #fff 100%);
+  border: 1px dashed var(--color-gold);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.fb-follow-content {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.fb-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.fb-title {
+  font-family: var(--font-serif-display);
+  font-size: 1.15rem;
+  color: var(--color-walnut-dark);
+  margin-bottom: 0.2rem;
+}
+
+.fb-desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .actualites-grid {
+    grid-template-columns: 1fr;
+  }
+}

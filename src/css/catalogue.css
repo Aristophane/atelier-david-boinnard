@@ -1,0 +1,246 @@
+/* ==========================================================================
+   CATALOGUE HISTORIQUE COMPLET (54 INSTRUMENTS) - ATELIER DAVID BOINNARD
+   ========================================================================== */
+
+.catalog-controls {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Onglets d'époque */
+.period-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.period-tab {
+  background: var(--color-spruce-cream);
+  border: 1px solid var(--color-spruce-border);
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.period-tab:hover {
+  background: #fff;
+  border-color: var(--color-gold);
+  color: var(--color-walnut-dark);
+}
+
+.period-tab.active {
+  background: linear-gradient(135deg, var(--color-walnut-light) 0%, var(--color-walnut-dark) 100%);
+  color: #fff;
+  border-color: rgba(200, 155, 60, 0.4);
+  box-shadow: 0 4px 12px rgba(22, 16, 11, 0.15);
+}
+
+/* Barre de recherche et filtre famille */
+.catalog-filters-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-spruce-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 260px;
+  background: var(--color-spruce-light);
+  border: 1px solid var(--color-spruce-border);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 1rem;
+  transition: border-color var(--transition-fast);
+}
+
+.search-box:focus-within {
+  border-color: var(--color-gold);
+  background: #fff;
+}
+
+.search-input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.type-filter-select {
+  padding: 0.65rem 1.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--color-spruce-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-spruce-light);
+  color: var(--text-primary);
+  cursor: pointer;
+  outline: none;
+}
+
+.type-filter-select:focus {
+  border-color: var(--color-gold);
+}
+
+.catalog-counter {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* Grille d'instruments */
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid var(--color-spruce-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: all var(--transition-normal);
+  cursor: pointer;
+}
+
+.catalog-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-gold);
+  box-shadow: var(--shadow-lg);
+}
+
+.catalog-card-media {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background: #1c140e;
+  overflow: hidden;
+}
+
+.catalog-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-smooth);
+}
+
+.catalog-card:hover .catalog-card-img {
+  transform: scale(1.06);
+}
+
+.catalog-opus-badge {
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  background: rgba(22, 16, 11, 0.9);
+  color: var(--color-gold-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(200, 155, 60, 0.3);
+  letter-spacing: 0.05em;
+}
+
+.catalog-period-badge {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-walnut-dark);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-xs);
+}
+
+.catalog-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.catalog-card-title {
+  font-size: 1.15rem;
+  color: var(--color-walnut-dark);
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.catalog-card-desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  flex: 1;
+}
+
+.catalog-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-spruce-cream);
+}
+
+.catalog-card-price {
+  font-family: var(--font-serif-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-gold-deep);
+}
+
+.catalog-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-spruce-cream);
+  border: 1px solid var(--color-spruce-border);
+  color: var(--color-walnut-dark);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.icon-btn:hover {
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+  color: #fff;
+}

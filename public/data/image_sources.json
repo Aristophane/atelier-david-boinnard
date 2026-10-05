@@ -1,0 +1,665 @@
+[
+  {
+    "id": "actu-145",
+    "previous": "4/general-vignettes/medieval/145.png",
+    "previous_size": [
+      174,
+      270
+    ],
+    "image": "images/instruments/adb-145.webp",
+    "width": 849,
+    "height": 1316,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-145.pdf",
+    "instrument": "145"
+  },
+  {
+    "id": "actu-143",
+    "previous": "4/general-vignettes/medieval/143.png",
+    "previous_size": [
+      230,
+      270
+    ],
+    "image": "images/instruments/adb-143.webp",
+    "width": 1072,
+    "height": 1260,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-143.pdf",
+    "instrument": "143"
+  },
+  {
+    "id": "actu-142",
+    "previous": "4/general-vignettes/xvii/142f.png",
+    "previous_size": [
+      221,
+      200
+    ],
+    "image": "images/instruments/adb-142.webp",
+    "width": 1162,
+    "height": 1053,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-142.pdf",
+    "instrument": "142"
+  },
+  {
+    "id": "actu-141",
+    "previous": "4/general-vignettes/medieval/141c.png",
+    "previous_size": [
+      365,
+      270
+    ],
+    "image": "images/instruments/adb-141.webp",
+    "width": 1196,
+    "height": 1594,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-141.pdf",
+    "instrument": "141"
+  },
+  {
+    "id": "actu-140",
+    "previous": "4/general-vignettes/xviii/140.png",
+    "previous_size": [
+      295,
+      270
+    ],
+    "image": "images/instruments/adb-140.webp",
+    "width": 800,
+    "height": 733,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-140.pdf",
+    "instrument": "140"
+  },
+  {
+    "id": "inst-1",
+    "previous": "4/general-vignettes/medieval/141c.png",
+    "previous_size": [
+      365,
+      270
+    ],
+    "image": "images/instruments/adb-141.webp",
+    "width": 1196,
+    "height": 1594,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-141.pdf",
+    "instrument": "141"
+  },
+  {
+    "id": "inst-2",
+    "previous": "4/general-vignettes/medieval/143.png",
+    "previous_size": [
+      230,
+      270
+    ],
+    "image": "images/instruments/adb-143.webp",
+    "width": 1072,
+    "height": 1260,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-143.pdf",
+    "instrument": "143"
+  },
+  {
+    "id": "inst-3",
+    "previous": "4/general-vignettes/medieval/126.png",
+    "previous_size": [
+      180,
+      120
+    ],
+    "image": "images/instruments/adb-126.webp",
+    "width": 534,
+    "height": 356,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-126.pdf",
+    "instrument": "126"
+  },
+  {
+    "id": "inst-4",
+    "previous": "4/general-vignettes/medieval/127.png",
+    "previous_size": [
+      180,
+      129
+    ],
+    "image": "images/instruments/adb-127.jpg",
+    "width": 886,
+    "height": 590,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-127.pdf",
+    "instrument": "127"
+  },
+  {
+    "id": "inst-5",
+    "previous": "4/general-vignettes/medieval/109.png",
+    "previous_size": [
+      96,
+      160
+    ],
+    "image": "images/instruments/adb-109.jpg",
+    "width": 959,
+    "height": 573,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-109.pdf",
+    "instrument": "109"
+  },
+  {
+    "id": "inst-6",
+    "previous": "4/general-vignettes/medieval/68.png",
+    "previous_size": [
+      100,
+      234
+    ],
+    "image": "images/instruments/adb-80.jpg",
+    "width": 291,
+    "height": 600,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-80.pdf",
+    "instrument": "80"
+  },
+  {
+    "id": "inst-7",
+    "previous": "4/general-vignettes/medieval/145.png",
+    "previous_size": [
+      174,
+      270
+    ],
+    "image": "images/instruments/adb-145.webp",
+    "width": 849,
+    "height": 1316,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-145.pdf",
+    "instrument": "145"
+  },
+  {
+    "id": "inst-8",
+    "previous": "4/general-vignettes/medieval/137.png",
+    "previous_size": [
+      200,
+      267
+    ],
+    "image": "images/instruments/adb-137.jpg",
+    "width": 886,
+    "height": 1181,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-137.pdf",
+    "instrument": "137"
+  },
+  {
+    "id": "inst-9",
+    "previous": "4/general-vignettes/medieval/130-131.png",
+    "previous_size": [
+      241,
+      200
+    ],
+    "image": "images/instruments/adb-130.webp",
+    "width": 232,
+    "height": 332,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-130.pdf",
+    "instrument": "130"
+  },
+  {
+    "id": "inst-10",
+    "previous": "4/general-vignettes/medieval/133.png",
+    "previous_size": [
+      137,
+      200
+    ],
+    "image": "images/instruments/adb-133.jpg",
+    "width": 409,
+    "height": 598,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-133.pdf",
+    "instrument": "133"
+  },
+  {
+    "id": "inst-11",
+    "previous": "4/general-vignettes/renaissance/58.gif",
+    "previous_size": [
+      100,
+      154
+    ],
+    "image": "images/instruments/adb-58.jpg",
+    "width": 366,
+    "height": 571,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-58.pdf",
+    "instrument": "58"
+  },
+  {
+    "id": "inst-12",
+    "previous": "4/general-vignettes/renaissance/88.gif",
+    "previous_size": [
+      170,
+      57
+    ],
+    "image": "2/disponibles/88.png",
+    "width": 389,
+    "height": 132,
+    "source": "http://www.david-boinnard.com/2/disponibles/88.png",
+    "instrument": "88"
+  },
+  {
+    "id": "inst-13",
+    "previous": "4/general-vignettes/renaissance/104.gif",
+    "previous_size": [
+      120,
+      71
+    ],
+    "image": "images/instruments/adb-104.jpg",
+    "width": 591,
+    "height": 351,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-104.pdf",
+    "instrument": "104"
+  },
+  {
+    "id": "inst-14",
+    "previous": "4/general-vignettes/renaissance/107.gif",
+    "previous_size": [
+      160,
+      60
+    ],
+    "image": "images/instruments/adb-107.jpg",
+    "width": 709,
+    "height": 266,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-107.pdf",
+    "instrument": "107"
+  },
+  {
+    "id": "inst-15",
+    "previous": "4/general-vignettes/renaissance/47.gif",
+    "previous_size": [
+      100,
+      101
+    ],
+    "image": "images/instruments/adb-47.jpg",
+    "width": 540,
+    "height": 563,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-47.pdf",
+    "instrument": "47"
+  },
+  {
+    "id": "inst-16",
+    "previous": "4/general-vignettes/renaissance/100.gif",
+    "previous_size": [
+      120,
+      108
+    ],
+    "image": "images/instruments/adb-100.jpg",
+    "width": 504,
+    "height": 455,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-100.pdf",
+    "instrument": "100"
+  },
+  {
+    "id": "inst-17",
+    "previous": "4/general-vignettes/renaissance/114.gif",
+    "previous_size": [
+      130,
+      101
+    ],
+    "image": "images/instruments/adb-114.jpg",
+    "width": 886,
+    "height": 700,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-114.pdf",
+    "instrument": "114"
+  },
+  {
+    "id": "inst-18",
+    "previous": "4/general-vignettes/renaissance/35.gif",
+    "previous_size": [
+      112,
+      100
+    ],
+    "image": "images/instruments/adb-35.jpg",
+    "width": 600,
+    "height": 493,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-35.pdf",
+    "instrument": "35"
+  },
+  {
+    "id": "inst-19",
+    "previous": "4/general-vignettes/renaissance/136.png",
+    "previous_size": [
+      185,
+      181
+    ],
+    "image": "images/instruments/adb-136.jpg",
+    "width": 768,
+    "height": 752,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-136.pdf",
+    "instrument": "136"
+  },
+  {
+    "id": "inst-20",
+    "previous": "4/general-vignettes/xvii/41.gif",
+    "previous_size": [
+      140,
+      90
+    ],
+    "image": "images/instruments/adb-41.jpg",
+    "width": 600,
+    "height": 385,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-41.pdf",
+    "instrument": "41"
+  },
+  {
+    "id": "inst-21",
+    "previous": "4/general-vignettes/xvii/46.gif",
+    "previous_size": [
+      199,
+      100
+    ],
+    "image": "images/instruments/adb-46.jpg",
+    "width": 600,
+    "height": 327,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-46.pdf",
+    "instrument": "46"
+  },
+  {
+    "id": "inst-22",
+    "previous": "4/general-vignettes/xvii/63.gif",
+    "previous_size": [
+      250,
+      146
+    ],
+    "image": "images/instruments/adb-63.jpg",
+    "width": 600,
+    "height": 320,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-63.pdf",
+    "instrument": "63"
+  },
+  {
+    "id": "inst-23",
+    "previous": "4/general-vignettes/xvii/98.gif",
+    "previous_size": [
+      100,
+      94
+    ],
+    "image": "images/instruments/adb-98.jpg",
+    "width": 520,
+    "height": 488,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-98.pdf",
+    "instrument": "98"
+  },
+  {
+    "id": "inst-24",
+    "previous": "4/general-vignettes/xvii/53.gif",
+    "previous_size": [
+      100,
+      125
+    ],
+    "image": "images/instruments/adb-93.jpg",
+    "width": 550,
+    "height": 438,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-93.pdf",
+    "instrument": "93"
+  },
+  {
+    "id": "inst-25",
+    "previous": "4/general-vignettes/xvii/116.png",
+    "previous_size": [
+      125,
+      119
+    ],
+    "image": "images/instruments/adb-116.jpg",
+    "width": 575,
+    "height": 563,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-116.pdf",
+    "instrument": "116"
+  },
+  {
+    "id": "inst-26",
+    "previous": "4/general-vignettes/xvii/32.gif",
+    "previous_size": [
+      130,
+      105
+    ],
+    "image": "images/instruments/adb-32.jpg",
+    "width": 582,
+    "height": 452,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-32.pdf",
+    "instrument": "32"
+  },
+  {
+    "id": "inst-27",
+    "previous": "4/general-vignettes/xvii/1-4.gif",
+    "previous_size": [
+      125,
+      100
+    ],
+    "image": "images/instruments/adb-1_2.jpg",
+    "width": 480,
+    "height": 372,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-1_2.pdf",
+    "instrument": "1_2"
+  },
+  {
+    "id": "inst-28",
+    "previous": "4/general-vignettes/xvii/108.gif",
+    "previous_size": [
+      100,
+      133
+    ],
+    "image": "images/instruments/adb-108.jpg",
+    "width": 369,
+    "height": 491,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-108.pdf",
+    "instrument": "108"
+  },
+  {
+    "id": "inst-29",
+    "previous": "4/general-vignettes/xvii/29.gif",
+    "previous_size": [
+      100,
+      111
+    ],
+    "image": "images/instruments/adb-29.jpg",
+    "width": 342,
+    "height": 381,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-29.pdf",
+    "instrument": "29"
+  },
+  {
+    "id": "inst-30",
+    "previous": "4/general-vignettes/xvii/41-1.gif",
+    "previous_size": [
+      100,
+      129
+    ],
+    "image": "images/instruments/adb-41_1.jpg",
+    "width": 429,
+    "height": 600,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-41_1.pdf",
+    "instrument": "41_1"
+  },
+  {
+    "id": "inst-31",
+    "previous": "4/general-vignettes/xvii/25.gif",
+    "previous_size": [
+      90,
+      102
+    ],
+    "image": "images/instruments/adb-25.jpg",
+    "width": 530,
+    "height": 600,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-25.pdf",
+    "instrument": "25"
+  },
+  {
+    "id": "inst-32",
+    "previous": "4/general-vignettes/xvii/48.gif",
+    "previous_size": [
+      100,
+      134
+    ],
+    "image": "images/instruments/adb-48.jpg",
+    "width": 405,
+    "height": 544,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-48.pdf",
+    "instrument": "48"
+  },
+  {
+    "id": "inst-33",
+    "previous": "4/general-vignettes/xvii/7.gif",
+    "previous_size": [
+      100,
+      101
+    ],
+    "image": "images/instruments/adb-39.jpg",
+    "width": 453,
+    "height": 555,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-39.pdf",
+    "instrument": "39"
+  },
+  {
+    "id": "inst-34",
+    "previous": "4/general-vignettes/xvii/118.png",
+    "previous_size": [
+      110,
+      134
+    ],
+    "image": "images/instruments/adb-118.jpg",
+    "width": 460,
+    "height": 572,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-118.pdf",
+    "instrument": "118"
+  },
+  {
+    "id": "inst-35",
+    "previous": "4/general-vignettes/xvii/24.gif",
+    "previous_size": [
+      118,
+      135
+    ],
+    "image": "images/instruments/adb-24.jpg",
+    "width": 459,
+    "height": 525,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-24.pdf",
+    "instrument": "24"
+  },
+  {
+    "id": "inst-36",
+    "previous": "4/general-vignettes/xvii/123-1.png",
+    "previous_size": [
+      250,
+      354
+    ],
+    "image": "images/instruments/adb-123.webp",
+    "width": 1332,
+    "height": 1884,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-123.pdf",
+    "instrument": "123"
+  },
+  {
+    "id": "inst-37",
+    "previous": "4/general-vignettes/xviii/140.png",
+    "previous_size": [
+      295,
+      270
+    ],
+    "image": "images/instruments/adb-140.webp",
+    "width": 800,
+    "height": 733,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-140.pdf",
+    "instrument": "140"
+  },
+  {
+    "id": "inst-38",
+    "previous": "4/general-vignettes/xviii/95.gif",
+    "previous_size": [
+      185,
+      172
+    ],
+    "image": "images/instruments/adb-95.jpg",
+    "width": 504,
+    "height": 457,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-95.pdf",
+    "instrument": "95"
+  },
+  {
+    "id": "inst-40",
+    "previous": "4/general-vignettes/xviii/1-3.gif",
+    "previous_size": [
+      100,
+      105
+    ],
+    "image": "images/instruments/adb-23.jpg",
+    "width": 561,
+    "height": 530,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-23.pdf",
+    "instrument": "23"
+  },
+  {
+    "id": "inst-41",
+    "previous": "4/general-vignettes/xviii/121.png",
+    "previous_size": [
+      115,
+      136
+    ],
+    "image": "images/instruments/adb-121.jpg",
+    "width": 730,
+    "height": 860,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-121.pdf",
+    "instrument": "121"
+  },
+  {
+    "id": "inst-42",
+    "previous": "4/general-vignettes/xviii/44.gif",
+    "previous_size": [
+      128,
+      100
+    ],
+    "image": "images/instruments/adb-44.jpg",
+    "width": 500,
+    "height": 398,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-44.pdf",
+    "instrument": "44"
+  },
+  {
+    "id": "inst-44",
+    "previous": "4/general-vignettes/xviii/1-5.gif",
+    "previous_size": [
+      70,
+      108
+    ],
+    "image": "images/instruments/adb-1_5.jpg",
+    "width": 370,
+    "height": 581,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-1_5.pdf",
+    "instrument": "1_5"
+  },
+  {
+    "id": "inst-45",
+    "previous": "4/general-vignettes/xviii/5.gif",
+    "previous_size": [
+      115,
+      120
+    ],
+    "image": "images/instruments/adb-5.jpg",
+    "width": 670,
+    "height": 708,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-5.pdf",
+    "instrument": "5"
+  },
+  {
+    "id": "inst-46",
+    "previous": "4/general-vignettes/xviii/52.gif",
+    "previous_size": [
+      129,
+      100
+    ],
+    "image": "images/instruments/adb-52.jpg",
+    "width": 531,
+    "height": 423,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-52.pdf",
+    "instrument": "52"
+  },
+  {
+    "id": "inst-47",
+    "previous": "4/general-vignettes/xviii/22.gif",
+    "previous_size": [
+      100,
+      110
+    ],
+    "image": "images/instruments/adb-75.jpg",
+    "width": 500,
+    "height": 446,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-75.pdf",
+    "instrument": "75"
+  },
+  {
+    "id": "inst-48",
+    "previous": "4/general-vignettes/xviii/120.png",
+    "previous_size": [
+      62,
+      115
+    ],
+    "image": "images/instruments/adb-120.jpg",
+    "width": 333,
+    "height": 591,
+    "source": "http://www.david-boinnard.com/4/fiches/ADB-120.pdf",
+    "instrument": "120"
+  }
+]

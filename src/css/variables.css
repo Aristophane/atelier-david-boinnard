@@ -1,0 +1,86 @@
+/* ==========================================================================
+   DESIGN TOKENS - ATELIER DAVID BOINNARD
+   Palette : Bois nobles (Noyer, Ébène, Buis, Poirier), Épicéa, Laiton & Parchemin
+   ========================================================================== */
+
+:root {
+  /* Nuances de bois & matières naturelles */
+  --color-walnut-dark: #16100b;       /* Noyer très foncé / Ébène */
+  --color-walnut-medium: #261b13;     /* Noyer chaud atelier */
+  --color-walnut-light: #3a2a1f;      /* Écorce / Bois d'ébénisterie */
+  --color-walnut-soft: #4e3a2b;       /* Noyer clair ciré */
+
+  --color-spruce-light: #fdfbf7;      /* Épicéa brut / Table d'harmonie */
+  --color-spruce-cream: #f6f0e4;      /* Crème parchemin */
+  --color-spruce-warm: #eee4d1;       /* Lin naturel tissé */
+  --color-spruce-border: #ded2bb;     /* Filet bois clair */
+
+  /* Dorures, laiton & métaux de clavecin */
+  --color-gold-deep: #9d7729;         /* Laiton ancien */
+  --color-gold: #c89b3c;              /* Dorure à la feuille */
+  --color-gold-light: #e5bd68;        /* Reflet doré */
+  --color-gold-subtle: rgba(200, 155, 60, 0.15); /* Halos et badges */
+
+  /* Accents lutherie & Stitch Carmine */
+  --color-sienna: #823c21;            /* Terre de Sienne / vernis violon */
+  --color-sienna-light: #a95634;      /* Cuir et feutre chaud */
+  --color-ebony: #0e0a07;             /* Touches en ébène */
+  --color-carmine: #8b1e1e;           /* Rouge Carmin Vénitien (Stitch Atelier) */
+  --color-carmine-dark: #6a020a;      /* Carmin sombre laque historique */
+  --color-carmine-light: #9e2a2b;     /* Bordeaux chaleureux */
+  --color-carmine-subtle: rgba(139, 30, 30, 0.08);
+  --color-carmine-border: rgba(139, 30, 30, 0.22);
+
+  /* Papiers d'art & fonds Stitch */
+  --color-linen: #fbf9f5;             /* Toile de lin / ivoire atelier */
+  --color-parchment-subtle: #f3efea;  /* Parchemin doux non-blanchi */
+  --border-hairline: #e5dfd5;         /* Filet fin architectural 1px */
+
+  /* Textes & contrastes */
+  --text-primary: #1c1b1b;            /* Texte principal sur fond clair */
+  --text-secondary: #4a3525;          /* Sous-titres et métadonnées aged timber */
+  --text-muted: #6e6860;              /* Textes secondaires discrets */
+  --text-on-dark: #fcf9f2;            /* Texte blanc cassé sur fond noyer */
+  --text-on-dark-muted: #c8b9a6;      /* Texte secondaire sur fond noyer */
+
+  /* Typographie d'art */
+  --font-serif-display: 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-serif-quote: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-serif-reading: 'Cormorant Garamond', Garamond, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Espacements */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  /* Rayons de bordure */
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Ombres organiques & diffusion d'atelier */
+  --shadow-sm: 0 2px 6px rgba(22, 16, 11, 0.06);
+  --shadow-md: 0 6px 18px rgba(22, 16, 11, 0.08), 0 2px 6px rgba(22, 16, 11, 0.04);
+  --shadow-lg: 0 16px 36px rgba(22, 16, 11, 0.12), 0 4px 12px rgba(22, 16, 11, 0.06);
+  --shadow-gold: 0 4px 20px rgba(200, 155, 60, 0.25);
+  --shadow-card: 0 4px 20px rgba(38, 27, 19, 0.07);
+  --shadow-diffusion: 0 12px 36px -8px rgba(74, 53, 37, 0.08);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Conteneur principal */
+  --max-width: 1320px;
+  --header-height: 80px;
+}

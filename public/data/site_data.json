@@ -1,0 +1,2317 @@
+{
+  "metadata": {
+    "title": "Atelier David Boinnard — Facteur de clavecins d'art",
+    "tagline": "Facture historique, recherche organologique & instruments contemporains",
+    "subtitle_fr": "Clavecins, Clavicytheriums, Clavicordes, Virginals, Épinettes, Lautenwerks & Claviers MIDI",
+    "subtitle_en": "Harpsichords, Clavicytheria, Clavichords, Virginals, Spinets, Lautenwerke & MIDI Keyboards"
+  },
+  "workshop": {
+    "title_fr": "L'Atelier David Boinnard",
+    "subtitle_fr": "Facteur de clavecins d'art depuis 1980",
+    "text_fr": "Depuis 1980, l'atelier réalise des instruments historiques adaptés aux exigences et à la sensibilité des musiciens les plus exigeants.\n\nDavid Boinnard s'engage passionnément dans la recherche organologique dans des territoires de la facture instrumentale encore peu explorés : de la restitution minutieuse de petits claviers médiévaux joués en ensemble (clavisimbalum, clavicytherium d'Arnault de Zwolle) jusqu'à la conception de clavecins d'art équipés de systèmes MIDI de haute précision répondant aux créations scéniques actuelles.\n\nCe haut niveau de savoir-faire artisanal permet à l'atelier de s'imposer comme une référence internationale incontournable — faisant dialoguer l'archaïque et le contemporain, et contribuant activement à faire progresser la recherche musicologique et organologique. De l'atelier d'ébénisterie à la lumière de la scène de concert, David Boinnard accompagne chaque instrument comme une œuvre unique vivante.",
+    "title_en": "David Boinnard Workshop",
+    "subtitle_en": "Master Harpsichord Maker since 1980",
+    "text_en": "Since 1980, the workshop has been producing historical instruments adapted to the needs of musicians.\n\nDavid Boinnard engages in organological research in the areas of instrumental production that have yet to be explored: from the restitution of small medieval keyboards played together to the production of harpsichords equipped with MIDI systems that meet the needs of the current scene.\n\nThe level of skills acquired allows the workshop to establish itself as a reference in specific areas (from very early historical models to the most contemporary innovations) and to contribute to the advance of musicological and organological research in the field of keyboard instruments. From the studio to life on stage, David Boinnard brings life and accompanies the harpsichord. Medieval, Renaissance, Baroque and contemporary music meet and share the ultimate purpose of the instrument: music.",
+    "world_map": "4/mapmonde.gif",
+    "banner_img": "anim-index.gif",
+    "index_photo": "index1.png"
+  },
+  "news": [
+    {
+      "id": "actu-144",
+      "video": "https://www.youtube.com/watch?v=dSNDgWgh0_k",
+      "title": "Clavecin italien N°144",
+      "date": "Avril 2023",
+      "image": "2/disponibles/144-italien.png",
+      "description": "Nouvelle réalisation à l'atelier : clavecin italien selon les principes de facture historique, alliance de timbre percutant et de légèreté polyphonique.",
+      "link_type": "Fiche technique"
+    },
+    {
+      "id": "actu-145",
+      "title": "Clavicytherium N°145",
+      "date": "Novembre 2022",
+      "image": "images/instruments/adb-145.webp",
+      "description": "Clavicytherium vertical portatif issu de nos recherches organologiques sur les claviers du XVe siècle.",
+      "link_pdf": "4/fiches/ADB-145.pdf",
+      "link_type": "Fiche technique",
+      "image_original": "4/general-vignettes/medieval/145.png",
+      "image_width": 849,
+      "image_height": 1316
+    },
+    {
+      "id": "actu-143",
+      "title": "Clavicymbalum N°143",
+      "date": "Août 2022",
+      "image": "images/instruments/adb-143.webp",
+      "description": "Clavicymbalum à sautereaux d'après le manuscrit d'Henri-Arnault de Zwolle (vers 1440).",
+      "link_pdf": "4/fiches/ADB-143.pdf",
+      "link_type": "Fiche technique",
+      "image_original": "4/general-vignettes/medieval/143.png",
+      "image_width": 1072,
+      "image_height": 1260
+    },
+    {
+      "id": "actu-142",
+      "title": "Épinette italienne N°142",
+      "date": "Juin 2022",
+      "image": "images/instruments/adb-142.webp",
+      "description": "Épinette italienne XVIIe au timbre boisé, ornementée et équilibrée pour la musique de chambre et le continuo.",
+      "link_pdf": "4/fiches/ADB-142.pdf",
+      "link_type": "Fiche technique",
+      "image_original": "4/general-vignettes/xvii/142f.png",
+      "image_width": 1162,
+      "image_height": 1053
+    },
+    {
+      "id": "actu-141",
+      "title": "Grand Clavicymbalum N°141",
+      "date": "Avril 2022",
+      "image": "images/instruments/adb-141.webp",
+      "description": "Grand modèle de clavicymbalum offrant une projection acoustique exceptionnelle pour les ensembles médiévaux.",
+      "link_pdf": "4/fiches/ADB-141.pdf",
+      "link_type": "Fiche technique",
+      "image_original": "4/general-vignettes/medieval/141c.png",
+      "image_width": 1196,
+      "image_height": 1594
+    },
+    {
+      "id": "actu-140",
+      "title": "Grand Clavicorde N°140",
+      "date": "Janvier 2022",
+      "image": "images/instruments/adb-140.webp",
+      "description": "Grand clavicorde libre d'après Johann Heinrich Silbermann (1775, Nuremberg). Expressivité, nuance du toucher et bebung.",
+      "link_pdf": "4/fiches/ADB-140.pdf",
+      "link_type": "Fiche technique",
+      "image_original": "4/general-vignettes/xviii/140.png",
+      "image_width": 800,
+      "image_height": 733
+    },
+    {
+      "id": "actu-58-midi",
+      "title": "Clavicytherium Renaissance N°58 — Système MIDI",
+      "date": "Mai 2022",
+      "image": "4/general-vignettes/actuel/cr-midi1.jpg",
+      "description": "Clavicytherium Renaissance équipé d'un système MIDI in/out optique novateur pour l'interaction entre musique ancienne et expérimentale.",
+      "link_pdf": "4/fiches/ADB-58.pdf",
+      "link_type": "Fiche technique"
+    },
+    {
+      "id": "actu-138",
+      "title": "Muselaar N°138 — Mère et l'enfant",
+      "date": "2021",
+      "image": "2/disponibles/138.png",
+      "description": "Chef-d'œuvre de facture flamande d'après Ioannes Rückers (1623), comprenant le grand muselaar 8' et son virginal ottavino 4' encastrable.",
+      "badge": "En vente",
+      "link_type": "Fiche technique"
+    }
+  ],
+  "available": [
+    {
+      "id": "disp-88",
+      "video": "https://vimeo.com/156861090",
+      "titre": "Clavicorde Renaissance",
+      "sous_titre": "Autour de 1540 - D'après l'original conservé à Leipzig",
+      "type": "Vente",
+      "numero": "n°88",
+      "prix": "8 000 €",
+      "image": "2/disponibles/88.png",
+      "details_fr": [
+        "19 chœurs",
+        "Étendue : MI à do - 45 notes",
+        "Diapason : 440 Hz",
+        "Dimensions : 1,01 x 0,34 x 0,14 m",
+        "Bois naturel, joues sculptées",
+        "Clavier : marches plaquées en buis, feintes plaquées en os"
+      ],
+      "details_en": [
+        "19 choirs",
+        "Compass: E to c - 45 notes",
+        "Pitch: 440 Hz",
+        "Dimensions: 1.01 x 0.34 x 0.14 m",
+        "Natural wood, carved cheeks",
+        "Keyboard: boxwood-plated naturals, bone sharps"
+      ]
+    },
+    {
+      "id": "disp-138",
+      "titre": "Muselaar flamand d'après Ioannes Rückers (1623)",
+      "sous_titre": "Ancienne collection Harding - 'Mère et l'enfant'",
+      "type": "Vente",
+      "numero": "n°138",
+      "prix": "À partir de 21 000 €",
+      "image": "2/disponibles/138.png",
+      "details_fr": [
+        "MÈRE (Muselaar) : Étendue MI à do (45 notes) | Diapason 415 Hz | 1x8' jeu de harpsichordum | Dim. 1,70 x 0,51 m | Marbre et papiers flamands | Piétement tourné démontable | Marches en os, feintes en chêne noirci | Sautereaux en poirier",
+        "ENFANT (Ottavino) : Étendue MI à do (45 notes) | Diapason 830 Hz | 1x4' | Dim. 0,82 x 0,41 m | Papiers flamands | Marches en os, feintes chêne noirci | Sautereaux en poirier"
+      ]
+    },
+    {
+      "id": "disp-35",
+      "video": "https://www.youtube.com/watch?v=dfRjxMxafys",
+      "titre": "Lautenwerk italien, début XVIIe",
+      "sous_titre": "D'après Royal College of Music",
+      "type": "Vente",
+      "numero": "n°35",
+      "prix": "À partir de 10 000 €",
+      "image": "2/disponibles/lautenwerk.jpg",
+      "details_fr": [
+        "Étendue : MI/DO à mi - 48 notes",
+        "Diapason : 440 - 466 Hz",
+        "Registration : 1x8' - cordes en boyau",
+        "Dimensions : 1,86 x 0,79 m",
+        "Bois naturel",
+        "Clavier : marches plaquées en buis, feintes en ébène",
+        "Sautereaux en poirier",
+        "Piétement en tréteaux"
+      ]
+    },
+    {
+      "id": "disp-hemsch",
+      "titre": "Double claviers français d'après Hemsch, XVIIIe",
+      "sous_titre": "Facture française classique",
+      "type": "Vente",
+      "numero": "Hemsch XVIIIe",
+      "prix": "À partir de 25 000 €",
+      "image": "2/disponibles/hemsch.jpg",
+      "details_fr": [
+        "Étendue : FA à mi - 60 notes",
+        "Diapason : 392 / 415 / 440 Hz",
+        "Registration : 2x8' - 1x4'",
+        "Dimensions : 2,35 x 0,90 m",
+        "7 pieds Louis XV démontables",
+        "Clavier : marches en ébène, feintes en noyer plaqué en os",
+        "Sautereaux en poirier"
+      ]
+    },
+    {
+      "id": "disp-tibaut",
+      "titre": "Double-claviers français d'après Tibaut (1691)",
+      "sous_titre": "Disponible à la location pour concerts et enregistrements",
+      "type": "Location",
+      "numero": "Tibaut 1691",
+      "prix": "Sur devis",
+      "image": "2/locations/tibaut.png",
+      "details_fr": [
+        "Étendue : SI/SOL à do - 52 notes (octave courte brisée)",
+        "Diapason : 392 Hz",
+        "Registration : 2x8', 1x4'",
+        "Dimensions : 2,11 x 0,785 m",
+        "Bois naturel",
+        "Piétement XVIIe démontable",
+        "Clavier : marches en ébène, feintes en os",
+        "Sautereaux en poirier"
+      ]
+    }
+  ],
+  "catalog": [
+    {
+      "id": "inst-1",
+      "number": "N°141",
+      "title": "Grand clavicymbalum / clavisimbalum",
+      "type": "Clavicymbalum",
+      "period": "Médiéval",
+      "price": "à partir de 8 000 €",
+      "image": "images/instruments/adb-141.webp",
+      "pdf": "4/fiches/ADB-141.pdf",
+      "video": null,
+      "description": "N°141 - à partir de 8 000 €",
+      "image_original": "4/general-vignettes/medieval/141c.png",
+      "image_width": 1196,
+      "image_height": 1594
+    },
+    {
+      "id": "inst-2",
+      "number": "N°143",
+      "title": "Clavicymbalum / clavisimbalum",
+      "type": "Clavicymbalum",
+      "period": "Médiéval",
+      "price": "A partir de 4 800 €",
+      "image": "images/instruments/adb-143.webp",
+      "pdf": "4/fiches/ADB-143.pdf",
+      "video": null,
+      "description": "N°143 - A partir de 4 800 €",
+      "image_original": "4/general-vignettes/medieval/143.png",
+      "image_width": 1072,
+      "image_height": 1260
+    },
+    {
+      "id": "inst-3",
+      "number": "N°126",
+      "title": "Clavicymbalum / clavisimbalum",
+      "type": "Clavicymbalum",
+      "period": "Médiéval",
+      "price": "A partir de 4 800 €",
+      "image": "images/instruments/adb-126.webp",
+      "pdf": "4/fiches/ADB-126.pdf",
+      "video": "https://www.youtube.com/watch?v=k7rsebKcWJ8",
+      "description": "N°126 - A partir de 4 800 €",
+      "image_original": "4/general-vignettes/medieval/126.png",
+      "image_width": 534,
+      "image_height": 356
+    },
+    {
+      "id": "inst-4",
+      "number": "N°127",
+      "title": "Clavicymbalum / clavisimbalum",
+      "type": "Clavicymbalum",
+      "period": "Médiéval",
+      "price": "A partir de 4 800 €",
+      "image": "images/instruments/adb-127.jpg",
+      "pdf": "4/fiches/ADB-127.pdf",
+      "video": null,
+      "description": "N°127 - A partir de 4 800 €",
+      "image_original": "4/general-vignettes/medieval/127.png",
+      "image_width": 886,
+      "image_height": 590
+    },
+    {
+      "id": "inst-5",
+      "number": "N°109",
+      "title": "Clavicymbalum / clavisimbalum d'après le plan d'Arnault de Zwolle",
+      "type": "Clavicymbalum",
+      "period": "Médiéval",
+      "price": "A partir de 8 500 €",
+      "image": "images/instruments/adb-109.jpg",
+      "pdf": "4/fiches/ADB-109.pdf",
+      "video": null,
+      "description": "N°109 - A partir de 8 500 €",
+      "image_original": "4/general-vignettes/medieval/109.png",
+      "image_width": 959,
+      "image_height": 573
+    },
+    {
+      "id": "inst-6",
+      "number": "N°68/79/80",
+      "title": "Clavicythérium médiéval d'après le clavicytherium conservé au Royal College de Londres - environ 1480",
+      "type": "Clavicytherium",
+      "period": "Médiéval",
+      "price": "A partir de 22 000 €",
+      "image": "images/instruments/adb-80.jpg",
+      "pdf": "4/fiches/ADB-80.pdf",
+      "video": "https://www.youtube.com/watch?v=dGotDMCBHWs&t=2s",
+      "description": "N°68/79/80 - A partir de 22 000 €",
+      "image_original": "4/general-vignettes/medieval/68.png",
+      "image_width": 291,
+      "image_height": 600
+    },
+    {
+      "id": "inst-7",
+      "number": "N°145",
+      "title": "Clavicytherium portatif",
+      "type": "Clavicytherium",
+      "period": "Médiéval",
+      "price": "A partir de 3 800 €",
+      "image": "images/instruments/adb-145.webp",
+      "pdf": "4/fiches/ADB-145.pdf",
+      "video": null,
+      "description": "N°145 - A partir de 3 800 €",
+      "image_original": "4/general-vignettes/medieval/145.png",
+      "image_width": 849,
+      "image_height": 1316
+    },
+    {
+      "id": "inst-8",
+      "number": "N°137",
+      "title": "Clavicytherium portatif dessus",
+      "type": "Clavicytherium",
+      "period": "Médiéval",
+      "price": "A partir de 3 800 €",
+      "image": "images/instruments/adb-137.jpg",
+      "pdf": "4/fiches/ADB-137.pdf",
+      "video": null,
+      "description": "N°137 - A partir de 3 800 €",
+      "image_original": "4/general-vignettes/medieval/137.png",
+      "image_width": 886,
+      "image_height": 1181
+    },
+    {
+      "id": "inst-9",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=bu1pj4_j3LA&feature=share",
+          "label_fr": "n°130",
+          "label_en": "no. 130"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vNmqzkP1vGQ",
+          "label_fr": "n°131",
+          "label_en": "no. 131"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ANb9XYLPwNE&feature=youtu.be",
+          "label_fr": "n°131 · autre extrait",
+          "label_en": "no. 131 · another recording"
+        }
+      ],
+      "number": "N°130",
+      "title": "Clavicytherium portatif tenor  -    Clavicytherium portatif dessus N°131",
+      "type": "Clavicytherium",
+      "period": "Médiéval",
+      "price": "A partir de 3 800 €",
+      "image": "images/instruments/adb-130.webp",
+      "pdf": "4/fiches/ADB-130.pdf",
+      "video": "https://www.youtube.com/watch?v=bu1pj4_j3LA&feature=share",
+      "description": "Clavicytherium portatif tenor N°130 - A partir de 3 800 €   Clavicytherium portatif dessus N°131 - A partir de 3 800 €",
+      "image_original": "4/general-vignettes/medieval/130-131.png",
+      "image_width": 232,
+      "image_height": 332
+    },
+    {
+      "id": "inst-10",
+      "number": "N°133",
+      "title": "Clavicytherium portatif tenor  -  PDF Video",
+      "type": "Clavicytherium",
+      "period": "Médiéval",
+      "price": "A partir de 4 200 €",
+      "image": "images/instruments/adb-133.jpg",
+      "pdf": "4/fiches/ADB-133.pdf",
+      "video": null,
+      "description": "Clavicytherium portatif tenor N°133 - A partir de 4 200 € PDF Video",
+      "image_original": "4/general-vignettes/medieval/133.png",
+      "image_width": 409,
+      "image_height": 598
+    },
+    {
+      "id": "inst-11",
+      "number": "N°58/65",
+      "title": "Clavicytherium Renaissance d'après une gravure de Praetorius",
+      "type": "Clavicytherium",
+      "period": "Renaissance",
+      "price": "A partir de 14 500 €",
+      "image": "images/instruments/adb-58.jpg",
+      "pdf": "4/fiches/ADB-58.pdf",
+      "video": null,
+      "description": "N°58/65 - A partir de 14 500 €",
+      "image_original": "4/general-vignettes/renaissance/58.gif",
+      "image_width": 366,
+      "image_height": 571
+    },
+    {
+      "id": "inst-12",
+      "number": "N°88",
+      "title": "Clavicorde Renaissance - autour de 1540 d'après l'original conservé à Leizig",
+      "type": "Clavicorde",
+      "period": "Renaissance",
+      "price": "A partir de 7 800 €",
+      "image": "2/disponibles/88.png",
+      "pdf": "4/fiches/ADB-88.pdf",
+      "video": "https://vimeo.com/156861090",
+      "description": "N°88 - A partir de 7 800 €",
+      "image_original": "4/general-vignettes/renaissance/88.gif",
+      "image_width": 389,
+      "image_height": 132
+    },
+    {
+      "id": "inst-13",
+      "number": "N°104",
+      "title": "Epinette italienne début XVIIe, anonyme - Leipzig",
+      "type": "Épinette",
+      "period": "Renaissance",
+      "price": "A partir de 6 000 €",
+      "image": "images/instruments/adb-104.jpg",
+      "pdf": "4/fiches/ADB-104.pdf",
+      "video": null,
+      "description": "N°104 - A partir de 6 000 €",
+      "image_original": "4/general-vignettes/renaissance/104.gif",
+      "image_width": 591,
+      "image_height": 351
+    },
+    {
+      "id": "inst-14",
+      "number": "N°107",
+      "title": "Ottavino italien début XVIIe - Anonyme - Berlin",
+      "type": "Virginal & Muselaar",
+      "period": "Renaissance",
+      "price": "A partir de 8 000 €",
+      "image": "images/instruments/adb-107.jpg",
+      "pdf": "4/fiches/ADB-107.pdf",
+      "video": "https://www.youtube.com/watch?v=iY256Oy2oCk",
+      "description": "N°107 - A partir de 8 000 €",
+      "image_original": "4/general-vignettes/renaissance/107.gif",
+      "image_width": 709,
+      "image_height": 266
+    },
+    {
+      "id": "inst-15",
+      "number": "N°47/92",
+      "title": "Virginal XVIe - Anonyme - Berlin",
+      "type": "Virginal & Muselaar",
+      "period": "Renaissance",
+      "price": "A partir de 6 800 €",
+      "image": "images/instruments/adb-47.jpg",
+      "pdf": "4/fiches/ADB-47.pdf",
+      "video": null,
+      "description": "N°47/92 - A partir de 6 800 €",
+      "image_original": "4/general-vignettes/renaissance/47.gif",
+      "image_width": 540,
+      "image_height": 563
+    },
+    {
+      "id": "inst-16",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=3pkUh9WA4vo"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U2UAiE14-eU"
+        }
+      ],
+      "number": "N°100",
+      "title": "Muselaar flamand \" La mère et l'enfant \"",
+      "type": "Virginal & Muselaar",
+      "period": "Renaissance",
+      "price": "",
+      "image": "images/instruments/adb-100.jpg",
+      "pdf": "4/fiches/ADB-100.pdf",
+      "video": "https://www.youtube.com/watch?v=3pkUh9WA4vo",
+      "description": "Instrument d'art historique (Renaissance), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/renaissance/100.gif",
+      "image_width": 504,
+      "image_height": 455
+    },
+    {
+      "id": "inst-17",
+      "number": "N°114",
+      "title": "Muselaar flamand  -  PDF Video",
+      "type": "Virginal & Muselaar",
+      "period": "Renaissance",
+      "price": "A partir de 10 000 €",
+      "image": "images/instruments/adb-114.jpg",
+      "pdf": "4/fiches/ADB-114.pdf",
+      "video": "https://vimeo.com/111405347",
+      "description": "Muselaar flamand N°114 - A partir de 10 000 € PDF Video",
+      "image_original": "4/general-vignettes/renaissance/114.gif",
+      "image_width": 886,
+      "image_height": 700
+    },
+    {
+      "id": "inst-18",
+      "number": "N°35",
+      "title": "Lautenwerk italien - encordé en boyau début XVIIe - Royal College of Music, Londres",
+      "type": "Lautenwerk",
+      "period": "Renaissance",
+      "price": "A partir de 12 700 €",
+      "image": "images/instruments/adb-35.jpg",
+      "pdf": "4/fiches/ADB-35.pdf",
+      "video": "https://www.youtube.com/watch?v=dfRjxMxafys",
+      "description": "N°35 - A partir de 12 700 €",
+      "image_original": "4/general-vignettes/renaissance/35.gif",
+      "image_width": 600,
+      "image_height": 493
+    },
+    {
+      "id": "inst-19",
+      "number": "N°136",
+      "title": "Lautenwerk italien - encordé en boyau début XVIIe - Royal College of Music, Londres  -  PDF Video",
+      "type": "Lautenwerk",
+      "period": "Renaissance",
+      "price": "A partir de 13 000 €",
+      "image": "images/instruments/adb-136.jpg",
+      "pdf": "4/fiches/ADB-136.pdf",
+      "video": "https://www.youtube.com/watch?v=PCldnnc0JXk&feature=youtu.be",
+      "description": "Lautenwerk italien - encordé en boyau début XVIIe - Royal College of Music, Londres N°136 - A partir de 13 000 € PDF Video",
+      "image_original": "4/general-vignettes/renaissance/136.png",
+      "image_width": 768,
+      "image_height": 752
+    },
+    {
+      "id": "inst-20",
+      "number": "N°41",
+      "title": "Clavicorde lié d'après Donat, vers 1700 - Leipzig",
+      "type": "Clavicorde",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-41.jpg",
+      "pdf": "4/fiches/ADB-41.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xvii/41.gif",
+      "image_width": 600,
+      "image_height": 385
+    },
+    {
+      "id": "inst-21",
+      "number": "N°46/51/85",
+      "title": "Clavicordes XVIIe",
+      "type": "Clavicorde",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 6 800 €",
+      "image": "images/instruments/adb-46.jpg",
+      "pdf": "4/fiches/ADB-46.pdf",
+      "video": null,
+      "description": "N°46/51/85 - A partir de 6 800 €",
+      "image_original": "4/general-vignettes/xvii/46.gif",
+      "image_width": 600,
+      "image_height": 327
+    },
+    {
+      "id": "inst-22",
+      "number": "N°63",
+      "title": "Epinette polygonale italienne XVIIe, Anonyme",
+      "type": "Épinette",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-63.jpg",
+      "pdf": "4/fiches/ADB-63.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xvii/63.gif",
+      "image_width": 600,
+      "image_height": 320
+    },
+    {
+      "id": "inst-23",
+      "number": "N°98",
+      "title": "Epinette d'après Haward",
+      "type": "Épinette",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 10 800 €",
+      "image": "images/instruments/adb-98.jpg",
+      "pdf": "4/fiches/ADB-98.pdf",
+      "video": null,
+      "description": "N°98 - A partir de 10 800 €",
+      "image_original": "4/general-vignettes/xvii/98.gif",
+      "image_width": 520,
+      "image_height": 488
+    },
+    {
+      "id": "inst-24",
+      "number": "N°53/62/93",
+      "title": "Epinette italienne XVIIe",
+      "type": "Épinette",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-93.jpg",
+      "pdf": "4/fiches/ADB-93.pdf",
+      "video": null,
+      "description": "N°53/62/93",
+      "image_original": "4/general-vignettes/xvii/53.gif",
+      "image_width": 550,
+      "image_height": 438
+    },
+    {
+      "id": "inst-25",
+      "number": "N°116",
+      "title": "Epinette italienne XVIIe   :   N°142",
+      "type": "Épinette",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 6 800 €",
+      "image": "images/instruments/adb-116.jpg",
+      "pdf": "4/fiches/ADB-116.pdf",
+      "video": "https://www.youtube.com/watch?v=bNmMKMXV2rE",
+      "description": "Epinette italienne XVIIe A partir de 6 800 € N°116 :   N°142",
+      "image_original": "4/general-vignettes/xvii/116.png",
+      "image_width": 575,
+      "image_height": 563
+    },
+    {
+      "id": "inst-26",
+      "number": "N°32",
+      "title": "Virginal flamand avec octave courte",
+      "type": "Virginal & Muselaar",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 10 000 €",
+      "image": "images/instruments/adb-32.jpg",
+      "pdf": "4/fiches/ADB-32.pdf",
+      "video": null,
+      "description": "N°32 - A partir de 10 000 €",
+      "image_original": "4/general-vignettes/xvii/32.gif",
+      "image_width": 582,
+      "image_height": 452
+    },
+    {
+      "id": "inst-27",
+      "number": "N°1.4/1.2",
+      "title": "Virginal anglais d'après Townsend, 1641",
+      "type": "Virginal & Muselaar",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-1_2.jpg",
+      "pdf": "4/fiches/ADB-1_2.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xvii/1-4.gif",
+      "image_width": 480,
+      "image_height": 372
+    },
+    {
+      "id": "inst-28",
+      "number": "N°108",
+      "title": "Lautenwerk XVIIe 2x8' cordés en boyau et 1x4' cordé en laiton",
+      "type": "Lautenwerk",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 18 600 €",
+      "image": "images/instruments/adb-108.jpg",
+      "pdf": "4/fiches/ADB-108.pdf",
+      "video": "https://www.youtube.com/watch?v=8LIM5CgALms&feature=youtu.be",
+      "description": "N°108 - A partir de 18 600 €",
+      "image_original": "4/general-vignettes/xvii/108.gif",
+      "image_width": 369,
+      "image_height": 491
+    },
+    {
+      "id": "inst-29",
+      "number": "N°29/38/102",
+      "title": "Clavecin flamand d'après Ioannes Ruckers (1637)",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-29.jpg",
+      "pdf": "4/fiches/ADB-29.pdf",
+      "video": null,
+      "description": "N°29/38/102",
+      "image_original": "4/general-vignettes/xvii/29.gif",
+      "image_width": 342,
+      "image_height": 381
+    },
+    {
+      "id": "inst-30",
+      "number": "N°41-1",
+      "title": "Clavecin flamand d'après Andreas Ruckers (1637)",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-41_1.jpg",
+      "pdf": "4/fiches/ADB-41_1.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xvii/41-1.gif",
+      "image_width": 429,
+      "image_height": 600
+    },
+    {
+      "id": "inst-31",
+      "number": "N°25",
+      "title": "Clavecin flamand d'après Andreas Ruckers (1637)",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 10 500 €",
+      "image": "images/instruments/adb-25.jpg",
+      "pdf": "4/fiches/ADB-25.pdf",
+      "video": null,
+      "description": "N°25 - A partir de 10 500 €",
+      "image_original": "4/general-vignettes/xvii/25.gif",
+      "image_width": 530,
+      "image_height": 600
+    },
+    {
+      "id": "inst-32",
+      "number": "N°48/83/112",
+      "title": "Clavecins à un clavier dans l'esprit des instruments français du XVIIe",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 13 500 €",
+      "image": "images/instruments/adb-48.jpg",
+      "pdf": "4/fiches/ADB-48.pdf",
+      "video": "https://vimeo.com/214030761",
+      "description": "N°48/83/112 - A partir de 13 500 €",
+      "image_original": "4/general-vignettes/xvii/48.gif",
+      "image_width": 405,
+      "image_height": 544
+    },
+    {
+      "id": "inst-33",
+      "number": "N°7/39/66",
+      "title": "Clavecin italien",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-39.jpg",
+      "pdf": "4/fiches/ADB-39.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xvii/7.gif",
+      "image_width": 453,
+      "image_height": 555
+    },
+    {
+      "id": "inst-34",
+      "number": "N°118/125",
+      "title": "Clavecin italien  -   n°118   n°132",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "A partir de 11 600 €",
+      "image": "images/instruments/adb-118.jpg",
+      "pdf": "4/fiches/ADB-118.pdf",
+      "video": "https://vimeo.com/185635293",
+      "description": "Clavecin italien N°118/125 - A partir de 11 600 €  n°118   n°132",
+      "image_original": "4/general-vignettes/xvii/118.png",
+      "image_width": 460,
+      "image_height": 572
+    },
+    {
+      "id": "inst-35",
+      "number": "N°24/36",
+      "title": "Clavecin français à 2 claviers d'après Tibaut de Toulouse (1691)",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-24.jpg",
+      "pdf": "4/fiches/ADB-24.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xvii/24.gif",
+      "image_width": 459,
+      "image_height": 525
+    },
+    {
+      "id": "inst-36",
+      "number": "N°123",
+      "title": "Clavecin français XVIIe à 2 claviers",
+      "type": "Clavecin",
+      "period": "XVIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-123.webp",
+      "pdf": "4/fiches/ADB-123.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xvii/123-1.png",
+      "image_width": 1332,
+      "image_height": 1884
+    },
+    {
+      "id": "inst-37",
+      "number": "N°140",
+      "title": "Clavicorde libre d'après Johann Heinrich Silbermann, 1775 (Nuremberg)  - à partir",
+      "type": "Clavicorde",
+      "period": "XVIIIe Siècle",
+      "price": "13 000 €",
+      "image": "images/instruments/adb-140.webp",
+      "pdf": "4/fiches/ADB-140.pdf",
+      "video": null,
+      "description": "Clavicorde libre d'après Johann Heinrich Silbermann, 1775 (Nuremberg) N°140 - à partir 13 000 €",
+      "image_original": "4/general-vignettes/xviii/140.png",
+      "image_width": 800,
+      "image_height": 733
+    },
+    {
+      "id": "inst-38",
+      "number": "N°95",
+      "title": "Clavicorde d'après Gottfried Silbermann",
+      "type": "Clavicorde",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-95.jpg",
+      "pdf": "4/fiches/ADB-95.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xviii/95.gif",
+      "image_width": 504,
+      "image_height": 457
+    },
+    {
+      "id": "inst-39",
+      "number": "N°129",
+      "title": "Clavicorde libre d'après Silbermann - Nuremberg  - à partir",
+      "type": "Clavicorde",
+      "period": "XVIIIe Siècle",
+      "price": "13 000 €",
+      "image": "4/general-vignettes/xviii/129.png",
+      "pdf": "4/fiches/ADB-129.pdf",
+      "video": null,
+      "description": "Clavicorde libre d'après Silbermann - Nuremberg N°129 - à partir 13 000 €"
+    },
+    {
+      "id": "inst-40",
+      "number": "N°1-3/14/23",
+      "title": "Epinette française en aile d'oiseau",
+      "type": "Épinette",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-23.jpg",
+      "pdf": "4/fiches/ADB-23.pdf",
+      "video": null,
+      "description": "N°1-3/14/23",
+      "image_original": "4/general-vignettes/xviii/1-3.gif",
+      "image_width": 561,
+      "image_height": 530
+    },
+    {
+      "id": "inst-41",
+      "number": "N°121",
+      "title": "Copie de Christian Vater, 1738 conservé au Germanishes National Museum",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-121.jpg",
+      "pdf": "4/fiches/ADB-121.pdf",
+      "video": "https://vimeo.com/156855913",
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xviii/121.png",
+      "image_width": 730,
+      "image_height": 860
+    },
+    {
+      "id": "inst-42",
+      "number": "N°44/117",
+      "title": "Grand clavecin italien Anonyme, Leipzig",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-44.jpg",
+      "pdf": "4/fiches/ADB-44.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xviii/44.gif",
+      "image_width": 500,
+      "image_height": 398
+    },
+    {
+      "id": "inst-43",
+      "number": "N°16",
+      "title": "Clavecin flamand d'après Delin",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "4/general-vignettes/xviii/16.gif",
+      "pdf": null,
+      "video": null,
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque."
+    },
+    {
+      "id": "inst-44",
+      "number": "N°1-5",
+      "title": "Clavecin français d'après Bellot (original de 1729 conservé à Chartres)   :  N° 139",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "A partir de 12 000€",
+      "image": "images/instruments/adb-1_5.jpg",
+      "pdf": "4/fiches/ADB-1_5.pdf",
+      "video": null,
+      "description": "Clavecin français d'après Bellot (original de 1729 conservé à Chartres) A partir de 12 000€ N°1-5 :  N° 139",
+      "image_original": "4/general-vignettes/xviii/1-5.gif",
+      "image_width": 370,
+      "image_height": 581
+    },
+    {
+      "id": "inst-45",
+      "number": "N°5",
+      "title": "Clavecin français d'après Blanchet",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-5.jpg",
+      "pdf": "4/fiches/ADB-5.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xviii/5.gif",
+      "image_width": 670,
+      "image_height": 708
+    },
+    {
+      "id": "inst-46",
+      "number": "N°52",
+      "title": "Grand clavecin allemand à 2 claviers d'après Silbermann (1740)",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-52.jpg",
+      "pdf": "4/fiches/ADB-52.pdf",
+      "video": null,
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xviii/52.gif",
+      "image_width": 531,
+      "image_height": 423
+    },
+    {
+      "id": "inst-47",
+      "number": "N°22/73/75",
+      "title": "Clavecin français à 2 claviers d'après Hemsch - XVIIIe",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "A partir de 27 700€",
+      "image": "images/instruments/adb-75.jpg",
+      "pdf": "4/fiches/ADB-75.pdf",
+      "video": "https://www.youtube.com/watch?v=uqw49-i1Lw8&playnext=1&list=PL9020A060A96CF843&feature=results_main",
+      "description": "N°22/73/75 - A partir de 27 700€",
+      "image_original": "4/general-vignettes/xviii/22.gif",
+      "image_width": 500,
+      "image_height": 446
+    },
+    {
+      "id": "inst-48",
+      "number": "N°120",
+      "title": "Clavecin à 2 claviers début XVIIIe - inspiré de Bellot père",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "images/instruments/adb-120.jpg",
+      "pdf": "4/fiches/ADB-120.pdf",
+      "video": "https://www.youtube.com/watch?v=kqFfv1uon4Q&feature=youtu.be",
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque.",
+      "image_original": "4/general-vignettes/xviii/120.png",
+      "image_width": 333,
+      "image_height": 591
+    },
+    {
+      "id": "inst-49",
+      "number": "N°6",
+      "title": "Clavecin français 2 claviers d'après Goujon",
+      "type": "Clavecin",
+      "period": "XVIIIe Siècle",
+      "price": "",
+      "image": "4/general-vignettes/xviii/6.gif",
+      "pdf": null,
+      "video": null,
+      "description": "Instrument d'art historique (XVIIIe Siècle), restitution d'après originaux de musée ou traités d'époque."
+    },
+    {
+      "id": "inst-50",
+      "number": "",
+      "title": "Clavicytherium ",
+      "type": "Clavicytherium",
+      "period": "Musiques Actuelles & MIDI",
+      "price": "",
+      "image": "4/general-vignettes/actuel/cr-midi1.jpg",
+      "pdf": null,
+      "video": null,
+      "description": "Instrument d'art historique (Musiques Actuelles & MIDI), restitution d'après originaux de musée ou traités d'époque."
+    },
+    {
+      "id": "inst-51",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=G7StsMW9O-A&feature=youtu.be"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_UH84Hd7vnU",
+          "label_fr": "Hiatus, Claire Marchal",
+          "label_en": "Hiatus, Claire Marchal"
+        }
+      ],
+      "number": "N°92",
+      "title": "avec capteurs de mouvements et de pressions   - Extrait de Hiatus avec Claire Marchal Coproduction Arte Intime - Atelier David Boinnard",
+      "type": "Virginal & Muselaar",
+      "period": "Musiques Actuelles & MIDI",
+      "price": "",
+      "image": "4/general-vignettes/actuel/MIDI-1.png",
+      "pdf": null,
+      "video": "https://www.youtube.com/watch?v=G7StsMW9O-A&feature=youtu.be",
+      "description": "Instrument d'art historique (Musiques Actuelles & MIDI), restitution d'après originaux de musée ou traités d'époque."
+    },
+    {
+      "id": "inst-52",
+      "videos": [
+        {
+          "url": "https://vimeo.com/170287430"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0i_TvjRZ7Ic&feature=youtu.be",
+          "label_fr": "Laure Vovard",
+          "label_en": "Laure Vovard"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sNwahRDfjbw",
+          "label_fr": "Orchestration, Michel Trémouille",
+          "label_en": "Orchestration, Michel Trémouille"
+        }
+      ],
+      "number": "N°124",
+      "title": "clavecin d'après Bellot Ce clavecin équipé d'un système MIDI in/out a fait l'objet d'un article bien documenté dans la revue \"Musique Mécanique Vivante\", publiée par l'association des amis des instruments et de la musique mécanique.   avec Laure Vovard  : Orchestration Michel Tremouille",
+      "type": "Clavier Contemporain / MIDI",
+      "period": "Musiques Actuelles & MIDI",
+      "price": "",
+      "image": "4/general-vignettes/actuel/124.png",
+      "pdf": null,
+      "video": "https://vimeo.com/170287430",
+      "description": "Instrument d'art historique (Musiques Actuelles & MIDI), restitution d'après originaux de musée ou traités d'époque."
+    },
+    {
+      "id": "inst-53",
+      "number": "",
+      "title": "Clavecin ",
+      "type": "Clavecin",
+      "period": "Musiques Actuelles & MIDI",
+      "price": "",
+      "image": "4/general-vignettes/actuel/Blaise.jpg",
+      "pdf": null,
+      "video": null,
+      "description": "Instrument d'art historique (Musiques Actuelles & MIDI), restitution d'après originaux de musée ou traités d'époque."
+    },
+    {
+      "id": "inst-54",
+      "number": "",
+      "title": "\" La rencontre entre le XVIIe et le XXIe siècle ? ou les tribulations d'un facteur de clavecins dans son époque. J'ai cherché dans les traités ; rien chez Arnault de Zwolle ni chez Mersenne. Une piste quand même : Introduction à un solfège de l'audible d'Alain Savouret. \" David Boinnard",
+      "type": "Clavecin",
+      "period": "Musiques Actuelles & MIDI",
+      "price": "",
+      "image": "4/general-vignettes/actuel/128.jpg",
+      "pdf": null,
+      "video": null,
+      "description": "Instrument d'art historique (Musiques Actuelles & MIDI), restitution d'après originaux de musée ou traités d'époque."
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub-clavier-main",
+      "title": "Un clavier, une main",
+      "year": "2020",
+      "type": "Livret PDF / © Atelier David Boinnard",
+      "pdf": "5/publications/MEP.pdf",
+      "image": "5/publications/MEP-1c1m.jpg",
+      "description": "Lors de cette 13e rencontre autour des petits claviers médiévaux, plusieurs instrumentistes expérimentent les musiques de clavier en ensemble. David Boinnard invite Denis Morrier (musicologue), Christophe Deslignes, Anne Plonquet, Alban Thomas, Laure Vovard et Thomas Yvrard (instrumentistes) à réfléchir sur la pratique des répertoires médiévaux en ensemble de claviers polyphoniques. Le livret transcrit les échanges, l'iconographie, les instruments et les principes pythagoriciens du concert."
+    },
+    {
+      "id": "pub-salon-lens",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=k-a7i_35m9o"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RnInUNRAuMI",
+          "label_fr": "Entretien I.M.A.P.",
+          "label_en": "I.M.A.P. interview"
+        }
+      ],
+      "title": "Interview — Salon international des Métiers d'Art de Lens",
+      "year": "2017",
+      "type": "Reportage vidéo / IUT de Lens - I.M.A.P.",
+      "image": "5/publications/watchIMAP.jpg",
+      "video_url": "https://www.youtube.com/watch?v=k-a7i_35m9o",
+      "description": "Reportage et grand entretien avec David Boinnard sur son métier d'art, son atelier, la précision du travail du bois et l'acoustique des instruments à cordes pincées."
+    },
+    {
+      "id": "pub-aaimm",
+      "title": "Rencontre : Clavecin & Musique Mécanique Vivante",
+      "year": "2016",
+      "type": "Article Revue Musiques Mécaniques Vivantes (AAIMM)",
+      "image": "6/visuels/aaimm.png",
+      "description": "Rencontre féconde entre Michel Trémouille (passionné de musique mécanique) et David Boinnard (facteur de clavecins) autour de l'automatisation, des capteurs et de l'expressivité mécanique."
+    },
+    {
+      "id": "pub-clavicytherium-65",
+      "title": "Document d'atelier : Construction du Clavicytherium N°65",
+      "year": "2013",
+      "type": "Vidéo Stop-Motion d'atelier",
+      "image": "5/publications/n65-yt.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Fj-y5M7mH_k",
+      "description": "Immersion fascinante dans l'atelier : toutes les étapes de fabrication pas-à-pas d'un clavicytherium en bois massif résumées en stop-motion."
+    },
+    {
+      "id": "pub-entretien-thomas",
+      "title": "Entretien avec David Boinnard par Alban Thomas",
+      "year": "2008",
+      "type": "Article / Association Musique à la Renaissance",
+      "pdf": "5/publications/2008_boinnard.pdf",
+      "image": "5/publications/EDthomas.jpg",
+      "description": "Grand entretien approfondi sur la restitution des petits claviers du XVe siècle, la facture des sautereaux, les essences de bois et la recherche organologique."
+    },
+    {
+      "id": "pub-30-ans",
+      "title": "Les 30 ans de l'Atelier (1978 - 2008)",
+      "year": "2008",
+      "type": "Gazettes commémoratives (3 volumes PDF)",
+      "pdf_list": [
+        {
+          "name": "Gazette 1",
+          "file": "5/publications/30ans-1.pdf"
+        },
+        {
+          "name": "Gazette 2",
+          "file": "5/publications/30ans-2.pdf"
+        },
+        {
+          "name": "Gazette 3",
+          "file": "5/publications/30ans-3.pdf"
+        }
+      ],
+      "image": "5/publications/30y-1-avatar.jpg",
+      "description": "L'atelier a fêté ses 30 ans en 2008 : trois gazettes documentant les rencontres musicales au milieu des établis, les découvertes, concerts et l'histoire des créations de l'atelier."
+    },
+    {
+      "id": "pub-livret-clavecin",
+      "title": "Le Clavecin — Histoire, Styles & Facture",
+      "year": "1993",
+      "type": "Livret PDF / Éditions La Traditora",
+      "pdf": "5/publications/EDclavecin.pdf",
+      "image": "5/publications/EDclavecin.png",
+      "description": "Écrit par Anne-Catherine Bucher et David Boinnard. Ouvrage de référence sur les origines du clavecin, les premiers maîtres, l'esprit italien, l'Europe du Nord et la facture française."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Abattant",
+      "letter": "A",
+      "definition": "Partie de couvercle recouvrant le clavier, le sommier et les registres."
+    },
+    {
+      "term": "Abrégé",
+      "letter": "A",
+      "definition": "Mécanique transformant un mouvement vertical en mouvement rotatif."
+    },
+    {
+      "term": "Accouplement",
+      "letter": "A",
+      "definition": "Dispositif permettant la mise en mouvement des touches de deux ou plusieurs claviers à partir d’un seul clavier."
+    },
+    {
+      "term": "Ambitus",
+      "letter": "A",
+      "definition": "Étendue totale de l’instrument."
+    },
+    {
+      "term": "Arc-boutant",
+      "letter": "A",
+      "definition": "Partie de la charpente supérieure."
+    },
+    {
+      "term": "Arcade",
+      "letter": "A",
+      "definition": "Ornement en arc de cercle des frontons de touches."
+    },
+    {
+      "term": "Arpichordum",
+      "letter": "A",
+      "definition": "Jeu composé de pointes de métal qui peuvent être mises en contact avec les cordes (très fréquemment utilisé sur les muselaars)."
+    },
+    {
+      "term": "Assemblage",
+      "letter": "A",
+      "definition": "Toutes méthodes permettant la liaison des différentes pièces composant un objet (plat-joint, tenon mortaise, queue d’aronde...)"
+    },
+    {
+      "term": "Axe",
+      "letter": "A",
+      "definition": "Pièce métallique servant de pivot (pour les languettes des sautereaux, les charnières...)"
+    },
+    {
+      "term": "Baguette",
+      "letter": "B",
+      "definition": "Tringle en bois qui tient le couvercle ouvert (canne, queue)."
+    },
+    {
+      "term": "Balancier\n(barre de)",
+      "letter": "B",
+      "definition": "Traverse du milieu du châssis de clavier sur laquelle basculent les touches."
+    },
+    {
+      "term": "Barrage",
+      "letter": "B",
+      "definition": "Ensemble de la structure intérieure de la caisse ou des pièces collées sous la table d’harmonie."
+    },
+    {
+      "term": "Barre\nd’adresse",
+      "letter": "B",
+      "definition": "Planche verticale fermant la caisse du clavecin entre le sommier et le clavier."
+    },
+    {
+      "term": "Barre\nd’arrêt",
+      "letter": "B",
+      "definition": "Traverse arrière du châssis de clavier qui limite le mouvement vertical des touches."
+    },
+    {
+      "term": "Barre de\nbalancier",
+      "letter": "B",
+      "definition": "Voir balancier"
+    },
+    {
+      "term": "Barre de\nrepos",
+      "letter": "B",
+      "definition": "Traverse arrière du châssis de clavier supportant les queues de touches."
+    },
+    {
+      "term": "Barre de\ntable",
+      "letter": "B",
+      "definition": "Pièce de bois collée sous la table d’harmonie pour l’affermir et/ou régler sa sonorité."
+    },
+    {
+      "term": "Basane",
+      "letter": "B",
+      "definition": "Peau de mouton très souple."
+    },
+    {
+      "term": "Battement",
+      "letter": "B",
+      "definition": "Pulsation produite lorsque deux notes jouées ensemble ne sont pas rigoureusement justes."
+    },
+    {
+      "term": "Bec",
+      "letter": "B",
+      "definition": "Plume ou plectre qui gratte la corde."
+    },
+    {
+      "term": "Bec de\ncorbin",
+      "letter": "B",
+      "definition": "Profil de moulure en forme de bec de corbeau en usage depuis le XVIIe siècle."
+    },
+    {
+      "term": "Bois sur\ndosse",
+      "letter": "B",
+      "definition": "Débit des planches perpendiculaire au rayon du tronc."
+    },
+    {
+      "term": "Bois sur\nquartier",
+      "letter": "B",
+      "definition": "Débit des planches parallèle au rayon du tronc."
+    },
+    {
+      "term": "Bouclette",
+      "letter": "B",
+      "definition": "Epissure avec son œillet pratiquée à l’extrémité de la corde pour l’accrocher."
+    },
+    {
+      "term": "Boudin",
+      "letter": "B",
+      "definition": "Pièce de bois collée sous la table d’harmonie qui reçoit les pointes d’accroche du 4 pieds. Appelé aussi «contre chevalet»."
+    },
+    {
+      "term": "Boîte\nextérieure",
+      "letter": "B",
+      "definition": "Caisse dans laquelle se logent certains instruments italiens, ou de facture assimilée."
+    },
+    {
+      "term": "Boîte\nà clavier",
+      "letter": "B",
+      "definition": "Espace où est placé le clavier."
+    },
+    {
+      "term": "Bras (de\nchâssis)",
+      "letter": "B",
+      "definition": "Montant droit et gauche du châssis de clavier. (Ils sont perpendiculaires aux traverses)."
+    },
+    {
+      "term": "Buxheimer Orgelbuch : Fundamenta et Praeambula",
+      "letter": "B",
+      "definition": "Association Musique à la Renaissance http://musiquerenaissance.free.fr/ Le Buxheimer Orgelbuch est un recueil de musique pour clavier datant de la fin du XVème siècle. Il se compose de diverses pièces, d'origine vocale ou non, et de Fundamenta, méthodes pour improviser sur un Tenor. Ce sont à ces derniers que ce volume se consacre avec en supplément les divers Praeambula contenus dans ce même recueil. Contrepoint à 2 voix Association Musique à la Renaissance http://musiquerenaissance.free.fr/ Le premier volume de cette collection propose de s'initier à l'improvisation du contrepoint à deux voix, à l'image de celui qui pouvait être pratiqué durant les XVème et XVIème siècles. Partant du jeu d'une deuxième voix parallèle au-dessus d'un Cantus Firmus, les chapitres vous guideront très progressivement vers l'invention d'un contrepoint de plus en plus riche. Le domaine des imitations n'est pas abordé ici. Il le sera dans un prochain volume."
+    },
+    {
+      "term": "Béquille",
+      "letter": "B",
+      "definition": "Nom parfois donné à la canne qui tient le couvercle ouvert. Pièce de renfort de la table d’harmonie (utilisée par Ducken, Delin, voir Tibaut)."
+    },
+    {
+      "term": "Caisse",
+      "letter": "C",
+      "definition": "Ensemble des côtés (éclisses) et du fond qui ferme l’instrument."
+    },
+    {
+      "term": "Caisse\nextérieure",
+      "letter": "C",
+      "definition": "Voir boîte extérieure."
+    },
+    {
+      "term": "Caisse\nextérieure en trompe l’œil",
+      "letter": "C",
+      "definition": "Fausse boîte extérieure. L’instrument est construit sans boîte extérieure mais son décor est conçu pour l’imiter."
+    },
+    {
+      "term": "Canne",
+      "letter": "C",
+      "definition": "Baguette qui tient le couvercle ouvert (baguette, queue)."
+    },
+    {
+      "term": "Ceinture",
+      "letter": "C",
+      "definition": "Assemblage des éléments horizontaux d’un piétement ; ceinture inférieure, ceinture supérieure."
+    },
+    {
+      "term": "Chapiteau",
+      "letter": "C",
+      "definition": "Barre de bois garnie de tissu placé au-dessus des sautereaux."
+    },
+    {
+      "term": "Charpente\ninférieure",
+      "letter": "C",
+      "definition": "Ensemble des traverses de fond."
+    },
+    {
+      "term": "Charpente\nsupérieure",
+      "letter": "C",
+      "definition": "Ensemble des arcs boutants."
+    },
+    {
+      "term": "Chevalet",
+      "letter": "C",
+      "definition": "Baguette de bois dur profilé, collé sur la table d’harmonie et supportant les cordes. C’est le chevalet qui transmet les vibrations de la corde à la table d’harmonie."
+    },
+    {
+      "term": "Cheville",
+      "letter": "C",
+      "definition": "Pièce de bois conique ou cylindrique qui maintient un assemblage."
+    },
+    {
+      "term": "Cheville\nd’accord",
+      "letter": "C",
+      "definition": "Pointe de fer forgé sur laquelle on enroule la corde pour la mettre au ton."
+    },
+    {
+      "term": "Châssis\n(de clavier)",
+      "letter": "C",
+      "definition": "Cadre sur lequel sont montées les touches."
+    },
+    {
+      "term": "Clavecin",
+      "letter": "C",
+      "definition": "Instrument à cordes pincées et à clavier dont le clavier est perpendiculaire au grand côté (échine)."
+    },
+    {
+      "term": "Clavicorde",
+      "letter": "C",
+      "definition": "Instrument à cordes frappées et à clavier."
+    },
+    {
+      "term": "Clavicythérium",
+      "letter": "C",
+      "definition": "Clavecin dont la caisse est verticale."
+    },
+    {
+      "term": "Clavier",
+      "letter": "C",
+      "definition": "Ensemble des touches."
+    },
+    {
+      "term": "Clavier\nà divisions multiples",
+      "letter": "C",
+      "definition": "Clavier qui a plus de douze touches par octave."
+    },
+    {
+      "term": "Clef\nd’accord",
+      "letter": "C",
+      "definition": "Outil qui sert à tourner les chevilles d’accord de l’instrument pour l’accorder."
+    },
+    {
+      "term": "Contre\nchevalet",
+      "letter": "C",
+      "definition": "Voir boudin."
+    },
+    {
+      "term": "Contre\npointe",
+      "letter": "C",
+      "definition": "Pointe doublant la pointe de chevalet pour couder la corde."
+    },
+    {
+      "term": "Contre\nsommier",
+      "letter": "C",
+      "definition": "Appelé aussi masse supérieure. Planche verticale qui supporte la table d’harmonie du côté des claviers."
+    },
+    {
+      "term": "Contre\néclisse",
+      "letter": "C",
+      "definition": "Cadre interne sur lequel est collée la table d’harmonie."
+    },
+    {
+      "term": "Cordier",
+      "letter": "C",
+      "definition": "Moulure collée autour de la table dans laquelle sont fixées des pointes d’accroche."
+    },
+    {
+      "term": "Corps du\nsautereau",
+      "letter": "C",
+      "definition": "Sautereau sans sa languette."
+    },
+    {
+      "term": "Courbe",
+      "letter": "C",
+      "definition": "Eclisse courbe, partie cintrée de la caisse."
+    },
+    {
+      "term": "Couvercle",
+      "letter": "C",
+      "definition": "Panneau couvrant l’instrument."
+    },
+    {
+      "term": "Couvre-joint",
+      "letter": "C",
+      "definition": "Moulure collée sur le tour intérieur et sur la table d’harmonie de l’instrument."
+    },
+    {
+      "term": "Cran\nd’arrêt",
+      "letter": "C",
+      "definition": "Entaille pratiquée sur une genouillère pour l’immobiliser dans une position."
+    },
+    {
+      "term": "Devises",
+      "letter": "D",
+      "definition": "Inscription latine à caractère moral ou religieux en usage chez les décorateurs flamands."
+    },
+    {
+      "term": "Diapason",
+      "letter": "D",
+      "definition": "Hauteur du son par rapport à une norme établie (par exemple : LA à 440 hertz). Outil servant à rendre audible cette norme (le diapason de Taskin est accordé pour un LA à 391 hertz). Ce mot est aussi employé pour désigner le peigne (guide arrière des touches)."
+    },
+    {
+      "term": "Disposition",
+      "letter": "D",
+      "definition": "Ordre dans lequel sont placés les registres dans la fosse."
+    },
+    {
+      "term": "Disposition\nde pincement",
+      "letter": "D",
+      "definition": "Sens dans lequel les plumes pincent la corde."
+    },
+    {
+      "term": "Dogleg",
+      "letter": "D",
+      "definition": "Aménagement pratiqué aux sautereaux qui leur donne deux points d’appui. Le rang de sautereaux construit de la sorte peut être actionné indifféremment par le clavier supérieur ou inférieur. C’est une variante de l’accouplement."
+    },
+    {
+      "term": "Double\ncontre éclisse",
+      "letter": "D",
+      "definition": "Doublure de la contre éclisse."
+    },
+    {
+      "term": "Double\néclisse",
+      "letter": "D",
+      "definition": "Doublure de l’éclisse. Principe de construction développé par Dulken pour isoler la table d’harmonie de la contrainte créée par la tension des cordes sur la caisse."
+    },
+    {
+      "term": "Doucine",
+      "letter": "D",
+      "definition": "Profil de moulure composée d’une courbe concave et d’une courbe convexe. Elle est souvent utilisée pour orner le sommet des éclisses."
+    },
+    {
+      "term": "Drap",
+      "letter": "D",
+      "definition": "Etoffe ou feutre utilisé pour amortir les bruits de mécanique."
+    },
+    {
+      "term": "Décalage (de\npincement)",
+      "letter": "D",
+      "definition": "Réglage qui permet de faire pincer chaque plume séparément dans le plein jeu."
+    },
+    {
+      "term": "Echine",
+      "letter": "E",
+      "definition": "Le plus grand côté de la caisse."
+    },
+    {
+      "term": "Echiquier",
+      "letter": "E",
+      "definition": "L’un des premiers instruments à cordes et à clavier qui soit mentionné."
+    },
+    {
+      "term": "Eclisse",
+      "letter": "E",
+      "definition": "Les côtés de la caisse."
+    },
+    {
+      "term": "Eclisse\ncourbe",
+      "letter": "E",
+      "definition": "Côté cintré de la caisse."
+    },
+    {
+      "term": "Enfoncement\ndes touches",
+      "letter": "E",
+      "definition": "Profondeur à laquelle descend une touche lorsqu’on joue."
+    },
+    {
+      "term": "Epinette",
+      "letter": "E",
+      "definition": "Nom donné aux instruments à cordes pincées et à clavier dont le clavier n’est pas perpendiculaire à l’échine. Au XVIIe siècle, en France, ce mot désigne tous les instruments de la famille du clavecin."
+    },
+    {
+      "term": "Equerres",
+      "letter": "E",
+      "definition": "Supports triangulaires sur lesquels sont collées les éclisses des instruments de facture italienne."
+    },
+    {
+      "term": "Eschiquier",
+      "letter": "E",
+      "definition": "Voir échiquier."
+    },
+    {
+      "term": "Etendue",
+      "letter": "E",
+      "definition": "Espace de l’échelle sonore compris entre l’extrême grave et l’extrême aigu du clavier. Voir ambitus."
+    },
+    {
+      "term": "Etouffoir",
+      "letter": "E",
+      "definition": "Morceau de drap inséré dans la tête du sautereau pour empêcher la corde de sonner quand le sautereau est dans sa position de repos."
+    },
+    {
+      "term": "Etrésillon",
+      "letter": "E",
+      "definition": "Pièce de renfort placée dans la fosse pour maintenir le parallélisme de ses bords."
+    },
+    {
+      "term": "Feinte\nbrisée",
+      "letter": "F",
+      "definition": "Feinte divisée en deux parties, l’une à l’avant et l’autre légèrement plus haute à l’arrière. Elles sont utilisées dans l’octave courte dite «brisée» pour compléter l’étendue ; ou dans les claviers à divisions multiples."
+    },
+    {
+      "term": "Feintes",
+      "letter": "F",
+      "definition": "Les notes chromatiques du clavier."
+    },
+    {
+      "term": "Fenêtre",
+      "letter": "F",
+      "definition": "Ouverture dans la tête du sautereau recevant la languette."
+    },
+    {
+      "term": "Fond",
+      "letter": "F",
+      "definition": "Panneau fermant le dessous de la caisse."
+    },
+    {
+      "term": "Fosse\nà registre",
+      "letter": "F",
+      "definition": "Espace compris entre le sommier et le contre sommier où sont placés les registres et les guides."
+    },
+    {
+      "term": "Fronton",
+      "letter": "F",
+      "definition": "Ornement du chant antérieur de la marche."
+    },
+    {
+      "term": "Garde",
+      "letter": "G",
+      "definition": "Distance laissée entre le bec et la corde."
+    },
+    {
+      "term": "Garniture",
+      "letter": "G",
+      "definition": "Pièces de drap (tissu, feutre) ou de cuir garnissant les queues de touches, la barre de repos et le chapiteau. Voir habillage."
+    },
+    {
+      "term": "Geigenwerk",
+      "letter": "G",
+      "definition": "Instrument à clavier dont les cordes, généralement en boyau, sont frottées par des roues passées à la colophane."
+    },
+    {
+      "term": "Genouillère",
+      "letter": "G",
+      "definition": "Levier actionné par les genoux pour actionner les registres."
+    },
+    {
+      "term": "Gorge",
+      "letter": "G",
+      "definition": "Voir barre d’adresse."
+    },
+    {
+      "term": "Gorge\nd’appui",
+      "letter": "G",
+      "definition": "Entaille pratiquée dans la languette pour guider le ressort."
+    },
+    {
+      "term": "Grande\nbarre",
+      "letter": "G",
+      "definition": "La plus grande des barres collées sous la table d’harmonie. Elle est placée entre la rose et le chevalet sur une diagonale reliant l’échine et le contre sommier."
+    },
+    {
+      "term": "Gravure",
+      "letter": "G",
+      "definition": "Toute marque d’ornement faite à la pointe sèche sur le placage de clavier."
+    },
+    {
+      "term": "Guide",
+      "letter": "G",
+      "definition": "Latte en bois percée de mortaises dans lesquelles coulissent les sautereaux. Il est placé sous le registre dans la fosse."
+    },
+    {
+      "term": "Guide\narrière",
+      "letter": "G",
+      "definition": "Voir peigne et diapason."
+    },
+    {
+      "term": "Guide\nsupérieur",
+      "letter": "G",
+      "definition": "Nom parfois donné au registre."
+    },
+    {
+      "term": "Guider\nles touches (différentes manières de)",
+      "letter": "G",
+      "definition": "Languettes de bois dans le talon et coulissant dans les rainures du peigne. Pointes de métal plantées dans le talon et coulissant dans les rainures du peigne. Pointes de métal plantées dans la barre de repos et traversant les queues de touches. Les queues de touche sont encadrées par deux pointes de métal plantées dans la barre de repos. pointes de métal sous l’avant des touches."
+    },
+    {
+      "term": "Habillage",
+      "letter": "H",
+      "definition": "Voir garniture."
+    },
+    {
+      "term": "Harmonisation",
+      "letter": "H",
+      "definition": "Taille des plectres pour leur donner la souplesse nécessaire à un jeu agréable et affiner la sonorité de l’instrument."
+    },
+    {
+      "term": "Hausse",
+      "letter": "H",
+      "definition": "Nom donné aux feintes par Trichet."
+    },
+    {
+      "term": "Hauteur\nd’enroulement",
+      "letter": "H",
+      "definition": "Partie de la corde enroulée autour de la cheville d’accord."
+    },
+    {
+      "term": "Huit\npieds",
+      "letter": "H",
+      "definition": "Noté 8’. Se dit des deux rangs de cordes qui sonnent à l’unisson, en référence à la longueur mesurée en pieds (8’) du tuyau d’orgue de DO qui sonne au diapason équivalent."
+    },
+    {
+      "term": "Huit\npieds d’unisson",
+      "letter": "H",
+      "definition": "Celui dont les deux jeux ou registre de 8’ dont les cordes sont les plus longues. I"
+    },
+    {
+      "term": "huit\npieds principal",
+      "letter": "H",
+      "definition": "Celui des deux jeux ou registre de 8’ dont les cordes sont les plus courtes."
+    },
+    {
+      "term": "Instrument",
+      "letter": "I",
+      "definition": "Terme qui désignait, en Allemagne, tous les instruments à sautereaux."
+    },
+    {
+      "term": "Jalousie\nvénitienne (ou jalousie)",
+      "letter": "J",
+      "definition": "Nom donné à un couvercle posé au-dessus des cordes. Il est composé d’un cadre garni de fines lamelles qui peuvent pivoter autour d’un axe, elles sont commandées par une pédale qui permet d’obtenir des effets de piano ou de forte en les ouvrant plus ou moins."
+    },
+    {
+      "term": "Jeu",
+      "letter": "J",
+      "definition": "L’un des sons que l’instrument peut produire. Par exemple : jeu de luth, jeu de 4’..."
+    },
+    {
+      "term": "Jeu de\n16’",
+      "letter": "J",
+      "definition": "Jeu accordé une octave plus bas que le 8’."
+    },
+    {
+      "term": "Jeu de\n2’",
+      "letter": "J",
+      "definition": "Jeu accordé une octave plus haut que le 4’."
+    },
+    {
+      "term": "Jeu de\n4’",
+      "letter": "J",
+      "definition": "Jeu accordé une octave plus haut que le 8’."
+    },
+    {
+      "term": "Jeu de\n8’",
+      "letter": "J",
+      "definition": "Voir huit pieds."
+    },
+    {
+      "term": "Jeu de\nbuffle",
+      "letter": "J",
+      "definition": "Rang de sautereaux dont les plectres sont en peau de buffle (très souple). Il permet un léger crescendo en l’engageant plus ou moins fort et produit un son au timbre différent. Il pince toujours les cordes de 8’ et est apparu en France à la fin du XVIIIe siècle."
+    },
+    {
+      "term": "Jeu de\nluth",
+      "letter": "J",
+      "definition": "Réglette en bois mobile, garnie de cube de peau ou feutre, placée près du sillet. Lorsque les cubes sont en contact avec les cordes, elles produisent un son proche du luth."
+    },
+    {
+      "term": "Jeu de\nnasal",
+      "letter": "J",
+      "definition": "Registre placé très près du sillet. Il produit un son nasal. Il est appelé «lute stop» en anglais étant d’origine anglo-saxonne."
+    },
+    {
+      "term": "Joue",
+      "letter": "J",
+      "definition": "Partie de la caisse à droite du clavier."
+    },
+    {
+      "term": "La Solmisation au XVIème siècle",
+      "letter": "L",
+      "definition": "Association Musique à la Renaissance http://musiquerenaissance.free.fr/"
+    },
+    {
+      "term": "Languette",
+      "letter": "L",
+      "definition": "Petite pièce mobile de bois dur qui porte le plectre. Elle pivote sur un axe, et un ressort la maintient prête à fonctionner."
+    },
+    {
+      "term": "Levier",
+      "letter": "L",
+      "definition": "Manette qui permet le mouvement des registres. Le terme levier remplace parfois le mot touche."
+    },
+    {
+      "term": "Linteau",
+      "letter": "L",
+      "definition": "Voir barre d’adresse."
+    },
+    {
+      "term": "Longueur\ndes cordes",
+      "letter": "L",
+      "definition": "Il est d’usage de se servir de la longueur vibrante de la corde de c2 pour comparer les plans d’encordage des différents instruments."
+    },
+    {
+      "term": "Loup",
+      "letter": "L",
+      "definition": "Par analogie avec la quinte du loup du tempérament mésotonique (sol# mib) qui est très dissonante, on appelle loup en facture instrumentale tout son désagréable à l’oreille."
+    },
+    {
+      "term": "Lute\nstop",
+      "letter": "L",
+      "definition": "Voir jeu nasal."
+    },
+    {
+      "term": "Machine stop",
+      "letter": "M",
+      "definition": "Mécanisme, dans les clavecins anglais, qui sert à supprimer tous les jeux pour ne garder que le jeu nasal et obtenir par ce moyen un effet subit de piano."
+    },
+    {
+      "term": "Manette",
+      "letter": "M",
+      "definition": "Levier actionné à la main, transmettant aux registres les mouvements."
+    },
+    {
+      "term": "Manicordion",
+      "letter": "M",
+      "definition": "Voir clavicorde."
+    },
+    {
+      "term": "Marche",
+      "letter": "M",
+      "definition": "Touche naturelle (diatonique)."
+    },
+    {
+      "term": "Masse\ninférieure",
+      "letter": "M",
+      "definition": "Première traverse de la charpente inférieure à partir de la boîte à clavier. Elle relie l’échine et la joue."
+    },
+    {
+      "term": "Mesure\nde\nl’octave",
+      "letter": "M",
+      "definition": "Largeur d’une octave mesurée de DO à SI inclus."
+    },
+    {
+      "term": "Montant",
+      "letter": "M",
+      "definition": "Pièce de bois perpendiculaire à une traverse. Voir bras."
+    },
+    {
+      "term": "Mortaise",
+      "letter": "M",
+      "definition": "Trou rectangulaire ou carré."
+    },
+    {
+      "term": "Moulure\nde bas de caisse",
+      "letter": "M",
+      "definition": "Latte profilée masquant le joint entre le fond et les éclisses."
+    },
+    {
+      "term": "Moulure\nde caisse ou d’éclisses",
+      "letter": "M",
+      "definition": "Profil ornant le chant supérieur des éclisses."
+    },
+    {
+      "term": "Moulure\nde table",
+      "letter": "M",
+      "definition": "Latte profilée qui cerne la table d’harmonie. Voir couvre-joint."
+    },
+    {
+      "term": "Moulure\nd’accroche",
+      "letter": "M",
+      "definition": "Voir cordier."
+    },
+    {
+      "term": "Mouvement",
+      "letter": "M",
+      "definition": "Tout levier transmettant une action aux registres. Voir genouillère, manette, tirette, tirasse."
+    },
+    {
+      "term": "Muselaar",
+      "letter": "M",
+      "definition": "Mot d’origine flamande désignant un virginal dont le clavier est à droite et dont le point de pincement est près du milieu des cordes. Le mot s’écrit aussi muselar."
+    },
+    {
+      "term": "Mère\net l’enfant",
+      "letter": "M",
+      "definition": "Désigne un virginal en 8’ dans lequel est rangé un autre en 4’. Celui de 4’ peu se poser sur le grand (la mère) et forme ainsi un instrument double avec un clavier en 8’et un clavier en 4’. Il est nommé en Flandres «mœder en kind»."
+    },
+    {
+      "term": "Nag’s head swell",
+      "letter": "N",
+      "definition": "Partie de couvercle qui se soulève au moyen d’une pédale pour créer un effet de crescendo sur certains clavecins anglais. C’est un système différent des jalousies."
+    },
+    {
+      "term": "Nasal",
+      "letter": "N",
+      "definition": "Voir jeu nasal."
+    },
+    {
+      "term": "Numérotation",
+      "letter": "N",
+      "definition": "Chiffres ordonnant une série de touches ou de sautereaux. C’est un élément d’authentification des instruments anciens. O"
+    },
+    {
+      "term": "Octave\ncourte",
+      "letter": "O",
+      "definition": "Disposition selon laquelle les deux dernières feintes du grave peuvent être accordées diatoniquement. Sur un clavier de 45 notes qui semble commencer par MI : le MI est accordé à DO, le FA # à RÉ, le SOL # à MI. Les feintes peuvent être brisées ; dans ce cas, le FA # est joué par la partie avant et le ré par la partie arrière. L’octave courte en DO est notée C/E (DO/MI). Sur un clavier qui semble commencer par SI, le SI est accordé à SOL, le DO # à LA, le RÉ # à SI. Les feintes peuvent être brisées suivant le même principe que l’octave courte en DO. L’octave courte en SOL est notée G1/B1 (SOL/SI)."
+    },
+    {
+      "term": "Organum duplum aux 12ème et 13ème siècles",
+      "letter": "O",
+      "definition": "Association Musique à la Renaissance http://musiquerenaissance.free.fr/"
+    },
+    {
+      "term": "Ottavino",
+      "letter": "O",
+      "definition": "Virginal en 4’."
+    },
+    {
+      "term": "Palette",
+      "letter": "P",
+      "definition": "Placage des touches naturelles (diatoniques)."
+    },
+    {
+      "term": "Pan coupé",
+      "letter": "P",
+      "definition": "Éclisse qui n’est pas perpendiculaire à sa ou ses voisines. Sur un clavecin il s’agit de la queue ou pointe."
+    },
+    {
+      "term": "Papier flamand",
+      "letter": "P",
+      "definition": "Dit aussi «à la mode des flandres». Papier imprimé à motifs Mauresques ou d’hippocampes utilisé pour décorer les clavecins."
+    },
+    {
+      "term": "Paroi",
+      "letter": "P",
+      "definition": "Voir éclisses."
+    },
+    {
+      "term": "Peigne",
+      "letter": "P",
+      "definition": "Pièce de bois rainurée placée à l’arrière du châssis de clavier. Dans chaque rainure coulisse la pointe de guide plantée dans le talon de la touche assurant ainsi son guidage."
+    },
+    {
+      "term": "Petit huit pieds",
+      "letter": "P",
+      "definition": "Jeu de 8’ dont les cordes sont les plus courtes."
+    },
+    {
+      "term": "Pied de biche",
+      "letter": "P",
+      "definition": "Encoche ou équerre réalisée sur les sautereaux qui leur permet d’être actionnés indifféremment par le clavier supérieur ou inférieur."
+    },
+    {
+      "term": "Pilote",
+      "letter": "P",
+      "definition": "Pièce de bois fixée sur les queues de touches du clavier inférieur qui relie les deux claviers lorsqu’ils sont accouplés. Désigne aussi toute pièce rectiligne servant à transmettre un mouvement."
+    },
+    {
+      "term": "Pivot",
+      "letter": "P",
+      "definition": "Voir axe, pointe de balancier."
+    },
+    {
+      "term": "Piétement",
+      "letter": "P",
+      "definition": "Ensemble des pieds, ceintures et traverses supportant le clavecin."
+    },
+    {
+      "term": "Placage",
+      "letter": "P",
+      "definition": "Matière rigide préparée en fine épaisseur."
+    },
+    {
+      "term": "Placage de sommier",
+      "letter": "P",
+      "definition": "En général en épicéa, il est collé sur le sommier."
+    },
+    {
+      "term": "Placage de touche",
+      "letter": "P",
+      "definition": "Toute matière utilisée pour recouvrir les touches naturelles (os, ivoire, nacre, ébène, buis...)."
+    },
+    {
+      "term": "Planche de nom",
+      "letter": "P",
+      "definition": "Éclisse reliant l’échine à la joue placée devant le sommier. Voir barre d’adresse."
+    },
+    {
+      "term": "Plectre",
+      "letter": "P",
+      "definition": "plume qui pince la corde. Il peut être en plume d’oiseau, en cuir, en laiton ou en plastique (delrin)."
+    },
+    {
+      "term": "Plein jeu",
+      "letter": "P",
+      "definition": "Désigne l’ensemble des jeux pouvant être joués simultanément."
+    },
+    {
+      "term": "Plume",
+      "letter": "P",
+      "definition": "Voir plectre, bec."
+    },
+    {
+      "term": "Point de balancement",
+      "letter": "P",
+      "definition": "C’est le point où la touche bascule."
+    },
+    {
+      "term": "Point de pincement",
+      "letter": "P",
+      "definition": "Voir point d’attaque."
+    },
+    {
+      "term": "Point d’attaque",
+      "letter": "P",
+      "definition": "Désigne l’endroit où la plume pince la corde. Il s’exprime en pourcentage de la longueur vibrante."
+    },
+    {
+      "term": "Pointe",
+      "letter": "P",
+      "definition": "Éclisse qui relie l’échine à la courbe. Voir queue, pan coupé."
+    },
+    {
+      "term": "Pointe de balancement",
+      "letter": "P",
+      "definition": "Désigne la pointe du point de balancement."
+    },
+    {
+      "term": "Pointe de bascule",
+      "letter": "P",
+      "definition": "Voir pointe de balancement."
+    },
+    {
+      "term": "Pointe de chevalet",
+      "letter": "P",
+      "definition": "Petit clou planté dans le chevalet, qui délimite l’une des deux extrémités de la longueur vibrante de la corde."
+    },
+    {
+      "term": "Pointe de guide",
+      "letter": "P",
+      "definition": "Pièce de métal ou de bois fichée dans le talon de la touche et coulissant dans le peigne."
+    },
+    {
+      "term": "Pointe de sillet",
+      "letter": "P",
+      "definition": "Petit clou planté dans le sillet, qui délimite l’une des deux extrémités de la longueur vibrante de la corde."
+    },
+    {
+      "term": "Portillon",
+      "letter": "P",
+      "definition": "Partie du couvercle amovible fermant le devant du clavier."
+    },
+    {
+      "term": "Pourtour de sommier",
+      "letter": "P",
+      "definition": "parties intérieures des éclisses visibles autour du sommier."
+    },
+    {
+      "term": "Pourtour de table",
+      "letter": "P",
+      "definition": "Parties intérieures des éclisses visibles autour de la table d’harmonie."
+    },
+    {
+      "term": "Pédale",
+      "letter": "P",
+      "definition": "Levier actionné avec le pied pour changer les jeux."
+    },
+    {
+      "term": "Pédalier",
+      "letter": "P",
+      "definition": "Clavier actionné avec les pieds."
+    },
+    {
+      "term": "Quatre pieds",
+      "letter": "Q",
+      "definition": "Jeu sonnant une octave plus haut que le huit pieds. Il se note 4’."
+    },
+    {
+      "term": "Queue",
+      "letter": "Q",
+      "definition": "Partie étroite de la caisse d’un clavecin. Par extension, nom donné à l’éclisse qui rejoint l’échine et la courbe (pointe, queue, pan coupé). Désigne parfois la baguette qui tient le couvercle ouvert (baguette, canne)."
+    },
+    {
+      "term": "Queue de la touche",
+      "letter": "Q",
+      "definition": "Partie arrière de la touche."
+    },
+    {
+      "term": "Rang ou rangée de cordes",
+      "letter": "R",
+      "definition": "Désigne l’ensemble des cordes composant un jeu."
+    },
+    {
+      "term": "Rang ou rangée de sautereaux",
+      "letter": "R",
+      "definition": "Désigne l’ensemble des sautereaux d’un même registre."
+    },
+    {
+      "term": "Ravalement",
+      "letter": "R",
+      "definition": "Transformation qui consiste à agrandir l’étendue d’un clavecin."
+    },
+    {
+      "term": "Registration",
+      "letter": "R",
+      "definition": "Art de combiner les registres."
+    },
+    {
+      "term": "Registre",
+      "letter": "R",
+      "definition": "Règle de bois placée dans la fosse à travers laquelle coulissent les sautereaux. Nom donné aussi au jeu que le registre commande."
+    },
+    {
+      "term": "Registre à casiers",
+      "letter": "R",
+      "definition": "Genre de registre que l’on trouve essentiellement dans les instruments italiens et dans certaines épinettes anglaises. Dans ce cas, registre et guide ne font qu’un. Le sautereau est guidé à travers ce registre épais ; alors que dans l’autre cas, le guidage du sautereau est assuré par le registre et le guide qui sont séparés de quelques centimètres."
+    },
+    {
+      "term": "Renforts de sommier ou de paroi",
+      "letter": "R",
+      "definition": "Pièce de bois doublant l’échine et la joue sous le sommier."
+    },
+    {
+      "term": "Renversement",
+      "letter": "R",
+      "definition": "Portion de la corde non comprise par sa longueur vibrante."
+    },
+    {
+      "term": "Ressort",
+      "letter": "R",
+      "definition": "Soie de sanglier, ou fin fil métallique qui permet à la languette de revenir en position de jeu. Définit aussi toutes les pièces élastiques placées dans une mécanique (registre, mouvement, genouillère) pour en assurer la position ou le retour."
+    },
+    {
+      "term": "Rive",
+      "letter": "R",
+      "definition": "Se dit du chant d’une pièce par opposition à sa face."
+    },
+    {
+      "term": "Rosace",
+      "letter": "R",
+      "definition": "Ornement qui garnit la perce de la table d’harmonie."
+    },
+    {
+      "term": "Rose",
+      "letter": "R",
+      "definition": "Voir rosace. Désigne parfois l’ensemble de la rosace, de la couronne de fleurs peintes qui l’entoure et de la perce."
+    },
+    {
+      "term": "réglette de jeu de luth",
+      "letter": "R",
+      "definition": "Baguette de bois qui porte les cubes de peau ou de feutre du jeu de luth."
+    },
+    {
+      "term": "Résonance de la caisse",
+      "letter": "R",
+      "definition": "Fréquence à laquelle une caisse de clavecin résonne."
+    },
+    {
+      "term": "Sautereau",
+      "letter": "S",
+      "definition": "Ensemble du dispositif qui met en vibration la corde. Il est composé d’un corps et d’une tête dans laquelle est aménagée une fenêtre qui reçoit la languette articulée autour d’un axe et maintenue verticale par un ressort. A côté de la fenêtre, une fente reçoit l’étouffoir qui empêche la corde de résonner lorsque l’ensemble est au repos. Le sautereau repose sur la queue de la touche et coulisse du bas vers le haut lorsque la touche est enfoncée. C’est durant cette montée que la plume met en vibration la corde. Lorsque le sautereau redescend, l’articulation de la languette permet à la plume d’éviter la corde et l’étouffoir arrête sa vibration en venant se poser dessus."
+    },
+    {
+      "term": "Sautereau à double languette",
+      "letter": "S",
+      "definition": "Sautereau dont la tête plus large contient deux languettes inversées afin de faire sonner l’un ou l’autre des deux 8’ (en usage dans les clavecins de BULL)."
+    },
+    {
+      "term": "Sautereau à marche",
+      "letter": "S",
+      "definition": "Sautereau à pied de biche."
+    },
+    {
+      "term": "Seize pieds",
+      "letter": "S",
+      "definition": "Jeu accordé une octave plus grave que le 8’."
+    },
+    {
+      "term": "Sillet",
+      "letter": "S",
+      "definition": "Baguette de bois dur profilée collée sur le sommier supportant les cordes. A la différence du chevalet, en général, le sillet ne vibre pas."
+    },
+    {
+      "term": "Soie",
+      "letter": "S",
+      "definition": "Poil de l’échine des sangliers ou des porcs utilisé comme ressort de languette."
+    },
+    {
+      "term": "Sommier",
+      "letter": "S",
+      "definition": "Pièce massive de bois dur encastrée dans l’échine et dans la joue qui reçoit le sillet, et dans lequel sont plantées les chevilles d’accord."
+    },
+    {
+      "term": "Sourdine",
+      "letter": "S",
+      "definition": "Autre nom du jeu de luth."
+    },
+    {
+      "term": "Structure",
+      "letter": "S",
+      "definition": "Ensemble fonctionnel réunissant charpentes inférieure et supérieure, éclisses et contre éclisses."
+    },
+    {
+      "term": "Table d’harmonie",
+      "letter": "T",
+      "definition": "Ensemble de planches très fines en bois résineux soutenu par les barres, qui porte des chevalets. En vibrant, la table d’harmonie amplifie la sonorité des cordes."
+    },
+    {
+      "term": "Talon",
+      "letter": "T",
+      "definition": "Partie arrière de la touche."
+    },
+    {
+      "term": "Tempérament",
+      "letter": "T",
+      "definition": "On désigne ainsi l’altération apportée aux intervalles entre les sons lors du choix du système d’accord."
+    },
+    {
+      "term": "Tempérament inégal",
+      "letter": "T",
+      "definition": "Système d’accord dans lequel on favorise la justesse de certains intervalles (tierces ou quintes) au détriment des autres. Les tonalités qui utilisent ces intervalles purs en sont nettement embellies."
+    },
+    {
+      "term": "Tempérament égal",
+      "letter": "T",
+      "definition": "Système d’accord dans lequel tous les demi-tons sont égaux. Autrement dit, on divise l’intervalle d’octave pur en douze intervalles égaux."
+    },
+    {
+      "term": "Timbre",
+      "letter": "T",
+      "definition": "intensité relative des harmoniques d’un son. Le point de pincement caractérise les sons d’un clavecin."
+    },
+    {
+      "term": "Tirasse",
+      "letter": "T",
+      "definition": "Dispositif d’accouplement entre le pédalier et le clavier."
+    },
+    {
+      "term": "Tirette",
+      "letter": "T",
+      "definition": "Levier actionné par la main qui commande les mouvements des registres. Voir manette."
+    },
+    {
+      "term": "Touche",
+      "letter": "T",
+      "definition": "Chacun des leviers qui constituent un clavier."
+    },
+    {
+      "term": "Transitoire d’attaque",
+      "letter": "T",
+      "definition": "Ensemble des vibrations irrégulières que fait entendre la corde au moment où elle est mise en vibration, juste avant que le son s’établisse."
+    },
+    {
+      "term": "Transmission",
+      "letter": "T",
+      "definition": "Ensemble des leviers qui transmettent le mouvement aux registres. Voir mouvement."
+    },
+    {
+      "term": "Transpositeur",
+      "letter": "T",
+      "definition": "Clavier qui coulisse de droite à gauche, ou de gauche à droite, afin de faire sonner plus haut ou plus bas l’instrument qui en est muni. Se dit aussi des instruments flamands qui ont deux claviers décalés d’une quarte. On appelle clavecins transpositeurs les clavecins à deux claviers des facteurs flamands. Ils sont de deux types : le premier, plus courant, a le clavier supérieur avec la tessiture habituelle (C/E à c3) ; son clavier inférieure, décalé vers la gauche d‘une quarte, atteint f3. Le deuxième, nommé «transpositeur français» parce qu’ils ont été retrouvés en France, a une disposition de clavier inverse. Le clavier inférieur est chromatique avec une étendue de G1 à c3, et le clavier supérieur, décalé vers la droite d’une quarte, a une étendue de F à f3."
+    },
+    {
+      "term": "Traverse",
+      "letter": "T",
+      "definition": "Pièce de bois perpendiculaire à un montant. D’une façon générale, définit toutes les pièces de bois qui relient les éclisses les unes aux autres."
+    },
+    {
+      "term": "Traverse arrière",
+      "letter": "T",
+      "definition": "Voir barre de repos."
+    },
+    {
+      "term": "Traverse avant",
+      "letter": "T",
+      "definition": "Dans les châssis de clavier qui ont trois traverses, elle désigne celle qui est placée sous l’avant des touches. Elle reçoit, dans certains clavecins allemands et anglais, les pointes de guides."
+    },
+    {
+      "term": "Traverse de fond",
+      "letter": "T",
+      "definition": "Renfort de caisse fixé sur le fond."
+    },
+    {
+      "term": "Traverse de pivots",
+      "letter": "T",
+      "definition": "Voir balancier."
+    },
+    {
+      "term": "Tringle à couteau",
+      "letter": "T",
+      "definition": "Latte de bois ornée d’une moulure et séparant les claviers. Quand elle ferme l’espace entre la barre d’adresse et le clavier, elle reçoit souvent la signature du facteur."
+    },
+    {
+      "term": "Tête de sautereau",
+      "letter": "T",
+      "definition": "partie supérieure du corps de sautereau."
+    },
+    {
+      "term": "Unisson",
+      "letter": "U",
+      "definition": "Ce terme désigne parfois le 8’. Il est aussi employé pour nommer le deuxième 8’. V"
+    },
+    {
+      "term": "Virginal",
+      "letter": "V",
+      "definition": "Nom donné aux instruments rectangulaires à cordes pincées et à claviers. Le clavier se trouve sur l’un des grands côtés. Il peut être à gauche, l’instrument est alors nommé en Flandres «SPINET» ; ou à droite, il est alors nommé «MUSELAAR». Jusqu’au milieu du XVIIe siècle, le terme virginal désigne en Angleterre tous les instruments à claviers et à cordes pincées."
+    },
+    {
+      "term": "Volute",
+      "letter": "V",
+      "definition": "Ornement des joues ou des bras de claviers."
+    }
+  ],
+  "partners": [
+    {
+      "name": "Clavecin en France",
+      "cat": "Association & Patrimoine",
+      "desc": "Association loi 1901 pour la promotion, la diffusion et l'enseignement du clavecin et du clavicorde en France.",
+      "url": "http://www.clavecin-en-france.org"
+    },
+    {
+      "name": "Festival Musique et Mémoire",
+      "cat": "Festival & Concerts",
+      "desc": "Événement incontournable de la scène baroque dans le pays des Mille Étangs en Haute-Saône.",
+      "url": "http://www.musetmemoire.com"
+    },
+    {
+      "name": "Musique à la Renaissance",
+      "cat": "Recherche & Répertoires",
+      "desc": "Développer la connaissance, la diffusion et la pratique de la musique vocale et instrumentale du XIVe au XVIe siècle.",
+      "url": "http://musiquerenaissance.free.fr/"
+    },
+    {
+      "name": "Hortus Musarum",
+      "cat": "Ensemble Musical",
+      "desc": "Ensemble spécialisé dans la musique et la poésie à la Renaissance.",
+      "url": "http://hortusmusarum.free.fr"
+    },
+    {
+      "name": "Iconographie de l'orgue et du clavecin",
+      "cat": "Musicologie & Iconographie",
+      "desc": "Site de référence mondial consacré aux représentations picturales anciennes de l'orgue et du clavecin.",
+      "url": "http://organ-harpsichord-iconography.net"
+    },
+    {
+      "name": "Centre de Musique Médiévale de Paris",
+      "cat": "Enseignement & Recherche",
+      "desc": "Centre dédié à l'interprétation, la recherche et la formation aux musiques du Moyen Âge.",
+      "url": "http://cmm-paris.fr"
+    },
+    {
+      "name": "Céline Boinnard Graphiste",
+      "cat": "Arts Visuels",
+      "desc": "Création graphique, identité visuelle et design d'édition.",
+      "image": "6/visuels/boutoncbg-web.png",
+      "url": "http://celineboinnard.com"
+    },
+    {
+      "name": "Musiques Mécaniques Vivantes (AAIMM)",
+      "cat": "Arts & Mécanique",
+      "desc": "Association des Amis des Instruments et de la Musique Mécanique.",
+      "image": "6/visuels/aaimm.png",
+      "url": "http://aaimm.org"
+    },
+    {
+      "name": "La Ferme des Orgues",
+      "cat": "Musée & Collections",
+      "desc": "Musée des instruments de musique mécanique et traditions populaires à Steenwerck.",
+      "image": "6/visuels/ferme-orgues.png",
+      "url": "http://fermedesorgues.com"
+    },
+    {
+      "name": "Hervelin Sculpteur",
+      "cat": "Artisanat d'Art",
+      "desc": "Sculpture d'art sur bois, ornements et collaboration artistique.",
+      "image": "6/visuels/hervelin.png",
+      "url": "http://hervelin-sculpteur.com"
+    },
+    {
+      "name": "Claire Marchal & Collectif Muzzix",
+      "cat": "Création Contemporaine",
+      "desc": "Collectif de musiciens basé à Lille : du jazz contemporain aux musiques expérimentales et improvisées.",
+      "image": "6/visuels/muzzix.png",
+      "url": "http://muzzix.info"
+    }
+  ],
+  "contact": {}
+}

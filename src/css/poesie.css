@@ -1,0 +1,458 @@
+/* ==========================================================================
+   SECTION POÉTIQUE MAÎTRESSE - "ENTRE DEUX NOTES..." (STITCH MCP SYSTEM)
+   Inspiré du design system "L'Art du Clavecin" - Atelier David Boinnard
+   ========================================================================== */
+
+.poesie-section {
+  position: relative;
+  background-color: var(--color-linen);
+  padding: var(--space-4xl) 0;
+  border-top: 1px solid var(--border-hairline);
+  border-bottom: 1px solid var(--border-hairline);
+  overflow: hidden;
+}
+
+.poesie-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--color-carmine), var(--color-gold), transparent);
+  opacity: 0.7;
+}
+
+/* En-tête éditorial */
+.poesie-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: var(--space-2xl);
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .poesie-header {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.poesie-tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-carmine);
+  margin-bottom: var(--space-xs);
+}
+
+.poesie-title {
+  font-family: var(--font-serif-display);
+  font-size: clamp(2rem, 3.8vw, 3.25rem);
+  font-weight: 400;
+  color: var(--color-walnut-medium);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.poesie-title-italic {
+  font-family: var(--font-serif-quote);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-carmine);
+}
+
+.poesie-header-note {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  max-width: 320px;
+  text-align: right;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Carte éditoriale principale */
+.poesie-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-diffusion);
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .poesie-card {
+    grid-template-columns: 5fr 7fr;
+    padding: var(--space-2xl) var(--space-3xl);
+    gap: var(--space-2xl);
+  }
+}
+
+/* Colonne Gravure Ancienne */
+.poesie-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.engraving-frame {
+  position: relative;
+  background-color: var(--color-parchment-subtle);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  box-shadow: 0 4px 14px rgba(74, 53, 37, 0.05);
+  transition: transform var(--transition-normal);
+  width: 100%;
+  max-width: 440px;
+}
+
+.engraving-frame:hover {
+  transform: translateY(-2px);
+}
+
+.engraving-img {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+  display: block;
+  filter: contrast(1.15) sepia(0.08);
+}
+
+.engraving-caption {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-xs);
+  border-top: 1px solid var(--border-hairline);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.engraving-tag {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: var(--color-walnut-soft);
+}
+
+.engraving-subtitle {
+  font-family: var(--font-serif-reading);
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* Colonne Poème */
+.poesie-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Cartouche tampon atelier */
+.atelier-cartouche {
+  display: inline-flex;
+  align-self: flex-start;
+  background-color: var(--color-carmine);
+  color: #ffffff;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius-xs);
+  box-shadow: 0 4px 12px rgba(106, 2, 10, 0.2);
+  margin-bottom: var(--space-lg);
+}
+
+.cartouche-title {
+  font-family: var(--font-serif-display);
+  font-size: 1.125rem;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  display: block;
+}
+
+.cartouche-sub {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #ffdad7;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* Texte du poème */
+.poesie-text-block {
+  position: relative;
+  padding-left: var(--space-lg);
+  border-left: 2px solid var(--color-carmine-border);
+}
+
+.quote-glyph {
+  font-family: var(--font-serif-quote);
+  font-size: 4.5rem;
+  line-height: 1;
+  color: rgba(139, 30, 30, 0.18);
+  position: absolute;
+  top: -1.75rem;
+  left: -0.5rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.quote-glyph-end {
+  font-family: var(--font-serif-quote);
+  font-size: 4.5rem;
+  line-height: 1;
+  color: rgba(139, 30, 30, 0.18);
+  display: block;
+  text-align: right;
+  margin-top: -1rem;
+  margin-bottom: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.poesie-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  font-family: var(--font-serif-quote);
+  font-size: clamp(1.15rem, 1.45vw, 1.35rem);
+  line-height: 1.65;
+  color: var(--color-walnut-dark);
+  letter-spacing: 0.01em;
+}
+
+.poesie-body p {
+  margin: 0;
+}
+
+.term-carmine {
+  font-weight: 600;
+  color: var(--color-carmine);
+}
+
+.term-wood {
+  font-weight: 600;
+  color: var(--color-walnut-medium);
+}
+
+.poem-query {
+  font-style: italic;
+  color: var(--color-walnut-medium);
+}
+
+/* Signature */
+.poesie-signature {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-md);
+}
+
+.signature-line {
+  height: 1px;
+  width: 48px;
+  background-color: var(--border-hairline);
+}
+
+.signature-text {
+  font-family: var(--font-serif-quote);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--color-walnut-medium);
+  margin: 0;
+}
+
+.signature-role {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-walnut-soft);
+  margin-left: 0.25rem;
+}
+
+/* ==========================================================================
+   LES MOTS CACHÉS DU CLAVECIN (STITCH CRAFT CARDS)
+   ========================================================================== */
+
+.mots-caches-card {
+  background-color: var(--color-parchment-subtle);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xl) var(--space-xl);
+  margin-bottom: var(--space-2xl);
+  box-shadow: var(--shadow-sm);
+}
+
+.mots-caches-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .mots-caches-header {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.mots-caches-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.mots-caches-tag {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-carmine);
+}
+
+.mots-caches-title {
+  font-family: var(--font-serif-display);
+  font-size: 1.5rem;
+  color: var(--color-walnut-medium);
+  margin: 0.25rem 0 0 0;
+}
+
+.mots-caches-link {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-carmine);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: color var(--transition-fast);
+}
+
+.mots-caches-link:hover {
+  color: var(--color-carmine-dark);
+  text-decoration: underline;
+}
+
+.mots-caches-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .mots-caches-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.mot-cache-item {
+  background-color: #ffffff;
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-xs);
+  padding: var(--space-lg);
+  box-shadow: 0 2px 8px rgba(74, 53, 37, 0.04);
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.mot-cache-item:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-carmine-border);
+  box-shadow: 0 8px 20px rgba(106, 2, 10, 0.08);
+}
+
+.mot-cache-category {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  color: var(--color-sienna);
+  margin-bottom: 0.35rem;
+}
+
+.mot-cache-name {
+  font-family: var(--font-serif-display);
+  font-size: 1.1875rem;
+  color: var(--color-walnut-medium);
+  margin: 0 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mot-cache-name span.mot-arrow {
+  color: var(--color-carmine);
+  font-size: 0.875rem;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+.mot-cache-item:hover .mot-cache-name span.mot-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mot-cache-desc {
+  font-family: var(--font-sans);
+  font-size: 0.84375rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ==========================================================================
+   BOUTONS & ACCENTS CARMIN STITCH
+   ========================================================================== */
+
+.btn-carmine {
+  background-color: var(--color-carmine);
+  color: #ffffff;
+  border: 1px solid var(--color-carmine);
+}
+
+.btn-carmine:hover {
+  background-color: var(--color-carmine-dark);
+  border-color: var(--color-carmine-dark);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(106, 2, 10, 0.25);
+}
+
+.btn-outline-carmine {
+  background-color: transparent;
+  color: var(--color-carmine);
+  border: 1px solid var(--color-carmine);
+}
+
+.btn-outline-carmine:hover {
+  background-color: var(--color-carmine);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(106, 2, 10, 0.2);
+}

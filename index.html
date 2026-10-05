@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#A7131D" />
+  <title>Atelier David Boinnard — Facteur de Clavecins d'Art depuis 1980</title>
+  
+  <meta name="description" content="Atelier David Boinnard : Facteur de clavecins d'art, clavicytheriums, clavicordes, virginals et épinettes historiques. Recherche organologique et systèmes MIDI contemporains." />
+  <meta name="keywords" content="David Boinnard, facteur de clavecins, clavecin, clavicytherium, clavicorde, virginal, muselaar, lautenwerk, Arnault de Zwolle, clavecin MIDI, lutherie historique, musique ancienne" />
+  <meta name="author" content="David Boinnard" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Atelier David Boinnard — Facteur de Clavecins d'Art" />
+  <meta property="og:description" content="Facture historique, recherche organologique et instruments contemporains depuis 1980." />
+  <meta property="og:image" content="boutons/banner/banner5.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Une typographie de livre, accompagnée d'une sans-serif discrète. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%23A7131D'/%3E%3Cpath d='M8 24V11c0-2 2-3 4-3h1v16H8zm7-16h2v16h-2V8zm4 3h2v13h-2V11zm4 4h2v9h-2v-9z' fill='%23f8f6f1'/%3E%3C/svg%3E" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./src/css/index.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="nav.skip">Aller au contenu</a>
+
+  <!-- ========================================================================
+       1. EN-TÊTE & NAVIGATION
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#accueil" class="site-logo" aria-label="Atelier David Boinnard">
+        <img class="brand-logo" src="images/atelier-david-boinnard-logo.png" width="171" height="77" alt="Atelier David Boinnard — facteur de clavecins" />
+      </a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#accueil" class="nav-link active" data-i18n="nav.accueil">Accueil</a>
+        <a href="#actualites" class="nav-link" data-i18n="nav.actualites">Actualités</a>
+        <a href="#disponibles" class="nav-link" data-i18n="nav.disponibles">Disponibles</a>
+        <a href="#catalogue" class="nav-link" data-i18n="nav.catalogue">Catalogue</a>
+        <a href="#atelier" class="nav-link" data-i18n="nav.atelier">L'Atelier</a>
+        <a href="#glossaire" class="nav-link" data-i18n="nav.glossaire">Glossaire</a>
+        <a href="#publications" class="nav-link" data-i18n="nav.publications">Publications</a>
+        <a href="#partenaires" class="nav-link" data-i18n="nav.partenaires">Partenaires</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Sélecteur de langue bilingue -->
+        <div class="lang-switch" role="group" aria-label="Sélecteur de langue">
+          <button class="lang-btn active" data-lang="fr" type="button" aria-label="Passer en Français">FR</button>
+          <button class="lang-btn" data-lang="en" type="button" aria-label="Switch to English">EN</button>
+        </div>
+
+        <span class="header-location">Ronchin · France</span>
+        <a href="#contact" class="header-contact" data-i18n="nav.appointment">
+          Rencontrer le facteur ↗
+        </a>
+
+        <!-- Burger mobile -->
+        <button class="mobile-toggle" aria-label="Menu mobile" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" aria-label="Menu navigation mobile">
+    <a href="#accueil" class="nav-link" data-i18n="nav.accueil">Accueil</a>
+    <a href="#actualites" class="nav-link" data-i18n="nav.actualites">Actualités</a>
+    <a href="#disponibles" class="nav-link" data-i18n="nav.disponibles">Disponibles</a>
+    <a href="#catalogue" class="nav-link" data-i18n="nav.catalogue">Catalogue</a>
+    <a href="#atelier" class="nav-link" data-i18n="nav.atelier">L'Atelier</a>
+    <a href="#glossaire" class="nav-link" data-i18n="nav.glossaire">Glossaire</a>
+    <a href="#publications" class="nav-link" data-i18n="nav.publications">Publications</a>
+    <a href="#partenaires" class="nav-link" data-i18n="nav.partenaires">Partenaires</a>
+    <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+  </div>
+
+  <main id="main-content" tabindex="-1">
+    <!-- ========================================================================
+         2. SECTION HERO (ACCUEIL)
+         ======================================================================== -->
+    <section id="accueil" class="landing-section" aria-labelledby="landing-title">
+      <div class="container">
+        <div class="landing-composition" id="poesie">
+          <figure class="landing-illustration">
+            <img class="landing-engraving" src="images/clavicytherium-praetorius.jpg" width="807" height="1217" alt="Gravure complète d’un clavicythérium, de la caisse verticale au clavier" fetchpriority="high" />
+            <figcaption><a href="https://commons.wikimedia.org/wiki/File:Clavicytherium_Praetorius.jpg" target="_blank" rel="noopener noreferrer">Michael Praetorius · <i>Syntagma musicum</i></a></figcaption>
+          </figure>
+          <h1 id="landing-title" class="landing-title" data-i18n="landing.title">Entre deux <span>notes…</span></h1>
+          <figure class="landing-poem">
+            <blockquote>
+              <p class="landing-stanza landing-stanza-first" data-i18n="landing.stanza_first">Il me conta les <strong>gestes</strong><br /> qui font parler le <strong>clavecin</strong>,<br /> les <strong>mots</strong> qui accompagnent<br /> les <strong>notes</strong>. Il dit qu’elles<br /> pouvaient être faibles,<br /> molles ou dures.</p>
+              <p class="landing-stanza landing-stanza-second" data-i18n="landing.stanza_second">Il me conta la <strong>plume</strong> qu’on ébarbe, découpe,<br /> façonne. À l’image de ce penne sacrifié,<br /> je préférai celle d’une <strong>plumule-chimère</strong><br /> grattant le sautereau. Comment tracer<br /> ce dernier mot, ignoré des dictionnaires ?<br /> J’imaginais : <strong>sauteur haut ?<br /> Sot Theurot ? Sot heur, oh !</strong></p>
+            </blockquote>
+            <figcaption class="landing-poet">Annie Colin, <span data-i18n="poesie.signature_role">poète</span>.</figcaption>
+          </figure>
+        </div>
+        <div class="landing-actions">
+          <p data-i18n="hero.badge">Facture instrumentale d’art · Depuis 1980</p>
+          <a class="text-link" href="#catalogue"><span data-i18n="hero.btn_catalog">Découvrir les instruments</span><span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+
+    <nav class="chapter-nav container" aria-label="Découvrir l’atelier">
+      <a href="#catalogue"><span class="chapter-number" aria-hidden="true">I.</span><span><small data-i18n="chapters.instruments_label">Les instruments</small><strong data-i18n="chapters.instruments">Une histoire de sonorités</strong></span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+      <a href="#atelier"><span class="chapter-number" aria-hidden="true">II.</span><span><small data-i18n="chapters.workshop_label">Le savoir-faire</small><strong data-i18n="chapters.workshop">La main & la matière</strong></span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+      <a href="#disponibles"><span class="chapter-number" aria-hidden="true">III.</span><span><small data-i18n="chapters.available_label">Vente & location</small><strong data-i18n="chapters.available">Votre prochain instrument</strong></span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+    </nav>
+
+<!-- ========================================================================
+         3. SECTION ACTUALITÉS & CRÉATIONS RÉCENTES
+         ======================================================================== -->
+    <section id="actualites" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="actu.tag">Actualités & Créations</span>
+          <h2 class="section-title" data-i18n="actu.title">Les Dernières Réalisations de l'Atelier</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="actu.desc">
+            Découvrez les instruments récemment sortis d'atelier, les restaurations et les innovations organologiques.
+          </p>
+        </div>
+
+        <!-- Grille des actualités (générée dynamiquement par JS) -->
+        <div class="actualites-grid" id="actualites-grid">
+          <!-- Chargé via main.js -->
+        </div>
+
+        <!-- Bandeau Facebook de l'atelier -->
+        <div class="fb-follow-box">
+          <div class="fb-follow-content">
+            <div class="fb-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </div>
+            <div>
+              <h3 class="fb-title" data-i18n="actu.fb_title">Suivez la vie quotidienne de l'Atelier sur Facebook</h3>
+              <p class="fb-desc" data-i18n="actu.fb_desc">Photos en cours d'ébénisterie, cordage, concerts et actualités musicales en direct.</p>
+            </div>
+          </div>
+          <a href="https://www.facebook.com/pages/Atelier-david-boinnard/276134262523346" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="actu.fb_btn">
+            Rejoindre la page Facebook
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. SECTION INSTRUMENTS DISPONIBLES (VENTE & LOCATION)
+         ======================================================================== -->
+    <section id="disponibles" class="section section-warm">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="disp.tag">Vente & Location</span>
+          <h2 class="section-title" data-i18n="disp.title">Instruments Disponibles à l'Atelier</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="disp.desc">
+            Clavecins, clavicordes et muselaars d'exception prêts pour le concert, l'enregistrement ou l'étude.
+          </p>
+        </div>
+
+        <!-- Liste des instruments disponibles -->
+        <div class="disponibles-list" id="disponibles-list">
+          <!-- Chargé via main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. SECTION CATALOGUE HISTORIQUE COMPLET (54 INSTRUMENTS)
+         ======================================================================== -->
+    <section id="catalogue" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="cat.tag">Patrimoine & Catalogue</span>
+          <h2 class="section-title" data-i18n="cat.title">Le Grand Catalogue Historique</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="cat.desc">
+            Plus de 50 instruments historiques réalisés par David Boinnard, avec fiches techniques d'atelier et enregistrements.
+          </p>
+        </div>
+
+        <!-- Filtres et contrôle du catalogue -->
+        <div class="catalog-controls">
+          <!-- Onglets d'époque -->
+          <div class="period-tabs">
+            <button class="period-tab active" data-period="all" data-i18n="cat.all_periods">Toutes les époques</button>
+            <button class="period-tab" data-period="medieval" data-i18n="cat.period_med">Médiéval</button>
+            <button class="period-tab" data-period="renaissance" data-i18n="cat.period_ren">Renaissance</button>
+            <button class="period-tab" data-period="xvii" data-i18n="cat.period_xvii">XVIIe Siècle</button>
+            <button class="period-tab" data-period="xviii" data-i18n="cat.period_xviii">XVIIIe Siècle</button>
+            <button class="period-tab" data-period="actuel" data-i18n="cat.period_mod">Musiques Actuelles & MIDI</button>
+          </div>
+
+          <!-- Barre de recherche et type -->
+          <div class="catalog-filters-bar">
+            <div class="search-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="text" id="catalog-search-input" aria-label="Rechercher un instrument" class="search-input" placeholder="Rechercher par numéro, maître ancien, modèle..." data-i18n="cat.search_placeholder" />
+            </div>
+
+            <select id="catalog-type-filter" class="type-filter-select" aria-label="Filtrer par type d'instrument">
+              <option value="all" data-i18n="cat.all_types">Toutes les familles</option>
+              <option value="clavecin">Clavecins (Flamands, Français, Italiens)</option>
+              <option value="clavicytherium">Clavicytheriums (Verticaux & Portatifs)</option>
+              <option value="clavicorde">Clavicordes (Liés & Libres)</option>
+              <option value="epinette">Épinettes (Italiennes, Françaises, Haward)</option>
+              <option value="virginal">Virginals & Muselaars (Mère et l'enfant)</option>
+              <option value="lautenwerk">Lautenwerks (Cordés en boyau)</option>
+              <option value="midi">Claviers Contemporains & Systèmes MIDI</option>
+            </select>
+
+            <span id="catalog-results-count" class="catalog-counter">54 instruments affichés</span>
+          </div>
+        </div>
+
+        <!-- Grille des instruments du catalogue -->
+        <div class="catalog-grid" id="catalog-instruments-grid">
+          <!-- Chargé via catalog.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. SECTION L'ATELIER & RECHERCHE ORGANOLOGIQUE
+         ======================================================================== -->
+    <section id="atelier" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="atelier.tag">Savoir-Faire & Histoire</span>
+          <h2 class="section-title" data-i18n="atelier.title">L'Atelier David Boinnard depuis 1980</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="atelier.desc">
+            Quatre décennies de passion, de menuiserie d'art et d'investigation musicologique.
+          </p>
+        </div>
+
+        <div class="atelier-grid">
+          <!-- Texte de l'atelier -->
+          <div class="atelier-text" id="atelier-main-text">
+            <p>Depuis 1980, l'atelier réalise des instruments historiques adaptés aux exigences et à la sensibilité des musiciens.</p>
+            <div class="atelier-highlight-box">
+              David Boinnard s'engage dans la recherche organologique dans des domaines de la facture instrumentale encore peu explorés : de la restitution de petits claviers médiévaux joués en ensemble à la réalisation de clavecins équipés de systèmes MIDI répondant aux besoins de la scène actuelle.
+            </div>
+            <p>Le niveau de compétences acquis permet à l'atelier de s'imposer comme référence dans certains domaines précis (de l'archaïque au contemporain) et de contribuer à faire progresser l'état de la recherche musicologique et organologique dans le domaine du clavecin. De l'atelier à la vie sur scène, David Boinnard donne vie et accompagne l'instrument. Musiques médiévales, Renaissance, baroques et contemporaines s'y croisent et partagent la finalité de l'instrument : la musique.</p>
+            <p>Une fois achevé, le clavecin commence une autre vie entre les mains du musicien.</p>
+          </div>
+
+          <!-- Médias & carte mondiale -->
+          <div class="atelier-media-wrapper">
+            <div class="world-map-card">
+              <div class="world-map-header">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                <h3 class="world-map-title" data-i18n="atelier.world_map_title">Les instruments de l'Atelier dans le monde</h3>
+              </div>
+              <img class="world-map-img" src="4/mapmonde.gif" alt="Implantation des instruments de David Boinnard dans le monde" />
+            </div>
+
+            <!-- Cartes piliers de lutherie -->
+            <div class="workshop-craft-cards">
+              <div class="craft-pill">
+                <span class="craft-pill-icon">🪵</span>
+                <span data-i18n="atelier.craft_wood">Noyer, Épicéa, Buis, Ébène</span>
+              </div>
+              <div class="craft-pill">
+                <span class="craft-pill-icon">🎻</span>
+                <span data-i18n="atelier.craft_acoustics">Acoustique & Tempéraments</span>
+              </div>
+              <div class="craft-pill">
+                <span class="craft-pill-icon">⚡</span>
+                <span data-i18n="atelier.craft_midi">Systèmes optiques MIDI in/out</span>
+              </div>
+              <div class="craft-pill">
+                <span class="craft-pill-icon">✨</span>
+                <span data-i18n="atelier.craft_custom">Pièces uniques sur mesure</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Galerie du Savoir-Faire d'Atelier (Stitch MCP) -->
+        <div class="atelier-gallery-section">
+          <div class="atelier-gallery-header">
+            <span class="atelier-gallery-tag" data-i18n="atelier.gallery_tag">Gestes & Matières d'Exception</span>
+            <h3 class="atelier-gallery-title" data-i18n="atelier.gallery_title">L'Artisanat d'Art à l'Établi</h3>
+          </div>
+
+          <div class="atelier-gallery-grid">
+            <!-- Carte 1 : Table d'harmonie -->
+            <div class="atelier-photo-card">
+              <div class="atelier-photo-img-wrapper">
+                <img class="atelier-photo-img" src="images/soundboard_rosette.jpg" alt="Table d'harmonie polychrome peinte à la main avec rosace sculptée" loading="lazy" />
+              </div>
+              <div class="atelier-photo-info">
+                <span class="atelier-photo-tag">Acoustique & Décor</span>
+                <h4 class="atelier-photo-name">Table d'Harmonie</h4>
+                <p class="atelier-photo-desc">Décor polychrome à la détrempe, motifs floraux flamands, oiseaux chanteurs et rosace sculptée en laiton doré.</p>
+              </div>
+            </div>
+
+            <!-- Carte 2 : Taille de plume -->
+            <div class="atelier-photo-card">
+              <div class="atelier-photo-img-wrapper">
+                <img class="atelier-photo-img" src="images/feather_carving.jpg" alt="Taille manuelle d'une plume de corbeau pour sautereau au scalpel" loading="lazy" />
+              </div>
+              <div class="atelier-photo-info">
+                <span class="atelier-photo-tag">Précision Mécanique</span>
+                <h4 class="atelier-photo-name">Taille de la Plume</h4>
+                <p class="atelier-photo-desc">Ébarbage et biseautage de pennes naturelles de corbeau ou d'oie au scalpel, pour une attaque franche et perlée.</p>
+              </div>
+            </div>
+
+            <!-- Carte 3 : Clavecin de concert -->
+            <div class="atelier-photo-card">
+              <div class="atelier-photo-img-wrapper">
+                <img class="atelier-photo-img" src="images/clavecin_vermeil.jpg" alt="Grand clavecin français deux claviers en laque vermillon vénitienne et dorures" loading="lazy" />
+              </div>
+              <div class="atelier-photo-info">
+                <span class="atelier-photo-tag">Grand Ravalement</span>
+                <h4 class="atelier-photo-name">Clavecin de Concert</h4>
+                <p class="atelier-photo-desc">Deux claviers d'après Blanchet et Hemsch, paré de laque vermillon vénitienne, moulures or et piétement torsadé.</p>
+              </div>
+            </div>
+
+            <!-- Carte 4 : Harmonisation sonore -->
+            <div class="atelier-photo-acoustic-card">
+              <div class="acoustic-icon">🎵</div>
+              <span class="atelier-photo-tag" style="color: var(--color-gold-light);">Art Vocal de l'Instrument</span>
+              <h4 class="atelier-photo-name" style="font-size: 1.25rem; margin: 0.35rem 0 0.5rem 0;">L'Harmonisation</h4>
+              <p class="atelier-photo-desc" style="color: #ede5da;">Chaque plume et étouffoir est calibré au milligramme près pour conférer un toucher soyeux, un timbre égal et une projection optimale en salle de concert.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. SECTION GRAND GLOSSAIRE TECHNIQUE (225 DÉFINITIONS DE A À Z)
+         ======================================================================== -->
+
+    <section id="glossaire" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="glossaire.tag">Encyclopédie Technique</span>
+          <h2 class="section-title" data-i18n="glossaire.title">Le Glossaire du Facteur de Clavecins</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="glossaire.desc">
+            225 termes spécialisés définis par David Boinnard : anatomie, mécanique, acoustique et histoire du clavecin.
+          </p>
+        </div>
+
+        <!-- Focus Stitch MCP : Les mots cachés du clavecin -->
+        <div class="mots-caches-card">
+          <div class="mots-caches-header">
+            <div class="mots-caches-title-group">
+              <span class="mots-caches-tag" data-i18n="mots_caches.tag">Vocabulaire de Facture</span>
+              <h3 class="mots-caches-title" data-i18n="mots_caches.title">Les mots cachés du clavecin</h3>
+            </div>
+            <a href="#glossary-search-input" class="mots-caches-link">
+              <span data-i18n="mots_caches.link">Accéder au glossaire complet</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <div class="mots-caches-grid">
+            <div class="mot-cache-item" data-term="sautereau" role="button" tabindex="0" title="Cliquer pour afficher la définition du Sautereau">
+              <span class="mot-cache-category" data-i18n="mots_caches.sautereau_cat">Mécanique</span>
+              <h4 class="mot-cache-name">
+                <span data-i18n="mots_caches.sautereau_title">Le Sautereau</span>
+                <span class="mot-arrow">→</span>
+              </h4>
+              <p class="mot-cache-desc" data-i18n="mots_caches.sautereau_desc">
+                Pièce de bois mince, mobile et verticale reposant à l'arrière de la touche, portant la languette pivotante et le bec de plume qui vient pincer la corde métallique.
+              </p>
+            </div>
+
+            <div class="mot-cache-item" data-term="penne" role="button" tabindex="0" title="Cliquer pour afficher la définition de la Plume & Penne">
+              <span class="mot-cache-category" data-i18n="mots_caches.plume_cat">Matière</span>
+              <h4 class="mot-cache-name">
+                <span data-i18n="mots_caches.plume_title">Le Penne & la Plume</span>
+                <span class="mot-arrow">→</span>
+              </h4>
+              <p class="mot-cache-desc" data-i18n="mots_caches.plume_desc">
+                Tuyau de penne d'oie, de corbeau ou de dindon découpé avec une précision millimétrique. C'est elle qui donne l'attaque franche et la clarté polyphonique inimitable.
+              </p>
+            </div>
+
+            <div class="mot-cache-item" data-term="harmonisation" role="button" tabindex="0" title="Cliquer pour afficher la définition de l'Harmonisation">
+              <span class="mot-cache-category" data-i18n="mots_caches.harmonie_cat">Acoustique</span>
+              <h4 class="mot-cache-name">
+                <span data-i18n="mots_caches.harmonie_title">L'Harmonisation</span>
+                <span class="mot-arrow">→</span>
+              </h4>
+              <p class="mot-cache-desc" data-i18n="mots_caches.harmonie_desc">
+                Art ultime de calibrer la résistance de chaque plume et chaque étouffoir pour conférer à l'instrument une égalité de timbre et un toucher délicat sur toute l'étendue du clavier.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="glossaire-controls">
+          <!-- Barre alphabétique -->
+          <div class="alphabet-bar" id="alphabet-bar">
+            <!-- Rempli dynamiquement par glossary.js -->
+          </div>
+
+          <!-- Champ de recherche temps réel -->
+          <div class="glossary-search-wrapper">
+            <div class="search-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="text" id="glossary-search-input" aria-label="Rechercher dans le glossaire" class="search-input" placeholder="Rechercher un terme (ex: sautereau, plectre, sommier)..." data-i18n="glossaire.search_placeholder" />
+            </div>
+          </div>
+
+          <div style="text-align: center;">
+            <span id="glossary-count" class="catalog-counter">225 termes répertoriés</span>
+          </div>
+        </div>
+
+        <!-- Liste des définitions -->
+        <div class="glossary-list-container" id="glossary-list-container">
+          <!-- Rendu via glossary.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. SECTION PUBLICATIONS & DOCUMENTS D'ATELIER
+         ======================================================================== -->
+    <section id="publications" class="section section-warm">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="pubs.tag">Recherche & Écrits</span>
+          <h2 class="section-title" data-i18n="pubs.title">Publications & Documents d'Atelier</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="pubs.desc">
+            Livrets de référence, gazettes historiques, reportages et entretiens musicologiques.
+          </p>
+        </div>
+
+        <div class="publications-grid" id="publications-grid">
+          <!-- Rendu via main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         9. SECTION PARTENAIRES & LIENS CULTURELS
+         ======================================================================== -->
+    <section id="partenaires" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="partenaires.tag">Réseau Musical</span>
+          <h2 class="section-title" data-i18n="partenaires.title">Liens & Partenaires Culturels</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="partenaires.desc">
+            Les associations, festivals, musées et artistes qui font vivre le monde de la musique ancienne et vivante.
+          </p>
+        </div>
+
+        <div class="partenaires-grid" id="partenaires-grid">
+          <!-- Rendu via main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         10. SECTION CONTACT & ACCÈS TRANSPORTS
+         ======================================================================== -->
+    <section id="contact" class="section section-warm">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="contact.tag">Rencontre & Visite</span>
+          <h2 class="section-title" data-i18n="contact.title">Prendre Contact avec l'Atelier</h2>
+          <div class="decorative-divider"><span class="diamond"></span></div>
+          <p class="section-desc" data-i18n="contact.desc">
+            Pour une commande d'instrument, une location de concert, une visite ou un renseignement technique.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Coordonnées & Accès -->
+          <div class="contact-info-col">
+            <div class="contact-card-box">
+              <ul class="contact-details-list">
+                <li class="contact-detail-item">
+                  <div class="contact-icon-bubble">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <div>
+                    <span class="contact-detail-label" data-i18n="contact.address_title">Adresse de l'Atelier</span>
+                    <div class="contact-detail-value">
+                      Atelier David BOINNARD<br>
+                      82, rue de Bouvines<br>
+                      F-59790 RONCHIN (Métropole de Lille)
+                    </div>
+                  </div>
+                </li>
+
+                <li class="contact-detail-item">
+                  <div class="contact-icon-bubble">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  </div>
+                  <div>
+                    <span class="contact-detail-label" data-i18n="contact.phone_title">Téléphone</span>
+                    <div class="contact-detail-value">
+                      <a href="tel:+33630832088">+33 (0)6 30 83 20 88</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="contact-detail-item">
+                  <div class="contact-icon-bubble">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div>
+                    <span class="contact-detail-label" data-i18n="contact.email_title">Courriel</span>
+                    <div class="contact-detail-value">
+                      <a href="mailto:contact@david-boinnard.com">contact@david-boinnard.com</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Guide d'accès multimodal -->
+            <div class="access-box">
+              <h3 class="access-title" data-i18n="contact.access_title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                Accès & Transports
+              </h3>
+              <div class="access-routes">
+                <div class="access-route-item">
+                  <span class="access-route-badge" data-i18n="contact.taxi_label">Taxi / Route</span>
+                  <span id="access-taxi-text">10 min de la gare Lille TGV (Flandres / Europe), 10 min de l'aéroport Lille - Lesquin.</span>
+                </div>
+                <div class="access-route-item">
+                  <span class="access-route-badge" data-i18n="contact.transport_label">Transports</span>
+                  <span id="access-transport-text">Métro Ligne 2 (arrêt Porte de Douai), Correspondance Bus 15 / 57 (arrêt Ronchin République).</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulaire de contact -->
+          <div class="contact-form-box">
+            <h3 class="contact-form-title" data-i18n="contact.form_title">Écrire à David Boinnard</h3>
+            <p class="contact-form-desc" data-i18n="contact.form_desc">Une question, un essai, un projet ? Préparez votre courriel ici, puis envoyez-le depuis votre messagerie.</p>
+
+            <form id="workshop-contact-form" class="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="form-name" data-i18n="contact.form_name">Votre nom complet</label>
+                <input class="form-control" type="text" id="form-name" name="name" autocomplete="name" required placeholder="ex: Jean de Sainte-Colombe" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="form-email" data-i18n="contact.form_email">Adresse e-mail</label>
+                <input class="form-control" type="email" id="form-email" name="email" autocomplete="email" required placeholder="ex: contact@domaine.fr" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="form-subject" data-i18n="contact.form_subject">Objet de votre demande</label>
+                <select class="form-control" id="form-subject" name="subject">
+                  <option value="Achat d'un instrument disponible" data-i18n="contact.subject_buy">Achat d'un instrument disponible</option>
+                  <option value="Commande d'un instrument sur mesure" data-i18n="contact.subject_custom">Commande d'un instrument sur mesure</option>
+                  <option value="Location pour concert / enregistrement" data-i18n="contact.subject_rent">Location pour concert / enregistrement</option>
+                  <option value="Visite de l'atelier / Rendez-vous" data-i18n="contact.subject_visit">Visite de l'atelier / Rendez-vous</option>
+                  <option value="Renseignement général" data-i18n="contact.subject_info">Renseignement général</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="form-message" data-i18n="contact.form_msg">Votre message</label>
+                <textarea class="form-control" id="form-message" name="message" required placeholder="Décrivez votre projet musical ou votre demande..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 0.5rem;" data-i18n="contact.btn_send">
+                Préparer le courriel
+              </button>
+
+              <div id="contact-form-feedback" class="form-feedback" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       11. PIED DE PAGE (FOOTER)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#accueil" class="site-logo" aria-label="Atelier David Boinnard — Accueil">
+            <img class="brand-logo" src="images/atelier-david-boinnard-logo.png" width="171" height="77" alt="Atelier David Boinnard — facteur de clavecins" loading="lazy" />
+          </a>
+          <p class="footer-brand-desc">
+            Facture d'art, restauration et recherche organologique depuis 1980. Clavecins, clavicytheriums, clavicordes, virginals, épinettes et claviers maîtres MIDI.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/pages/Atelier-david-boinnard/276134262523346" class="footer-social-btn" target="_blank" rel="noopener" aria-label="Page Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#accueil" class="footer-link" data-i18n="nav.accueil">Accueil</a></li>
+            <li><a href="#actualites" class="footer-link" data-i18n="nav.actualites">Actualités</a></li>
+            <li><a href="#disponibles" class="footer-link" data-i18n="nav.disponibles">Disponibles</a></li>
+            <li><a href="#catalogue" class="footer-link" data-i18n="nav.catalogue">Catalogue</a></li>
+            <li><a href="#atelier" class="footer-link" data-i18n="nav.atelier">L'Atelier</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Ressources</h4>
+          <ul class="footer-links-list">
+            <li><a href="#glossaire" class="footer-link" data-i18n="nav.glossaire">Glossaire (225 termes)</a></li>
+            <li><a href="#publications" class="footer-link" data-i18n="nav.publications">Publications & Livrets</a></li>
+            <li><a href="5/publications/MEP.pdf" class="footer-link" target="_blank" rel="noopener">Livret 'Un clavier, une main'</a></li>
+            <li><a href="5/publications/EDclavecin.pdf" class="footer-link" target="_blank" rel="noopener">Livret 'Le Clavecin'</a></li>
+            <li><a href="#partenaires" class="footer-link" data-i18n="nav.partenaires">Partenaires culturels</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Atelier & Accès</h4>
+          <ul class="footer-links-list">
+            <li>82 rue de Bouvines</li>
+            <li>F-59790 RONCHIN</li>
+            <li><a href="tel:+33630832088" class="footer-link">+33 (0)6 30 83 20 88</a></li>
+            <li><a href="mailto:contact@david-boinnard.com" class="footer-link">contact@david-boinnard.com</a></li>
+            <li><a href="#contact" class="footer-link" data-i18n="nav.contact">Prendre rendez-vous</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 1980 - 2026 Atelier David Boinnard. Facteur de clavecins d'art. Tous droits réservés.
+        </div>
+        <button id="back-to-top" class="back-to-top-btn" type="button">
+          <span>Haut de page</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       12. MODALE VISUALISEUR D'INSTRUMENT (LIGHTBOX)
+       ======================================================================== -->
+  <div id="instrument-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" type="button" aria-label="Fermer la modale">✕</button>
+      
+      <div class="modal-grid">
+        <div class="modal-media-col">
+          <a class="modal-image-link" target="_blank" rel="noopener noreferrer">
+            <img class="modal-img" src="" alt="Détail de l'instrument" />
+            <span>Ouvrir la photo en grand ↗</span>
+          </a>
+        </div>
+        <div class="modal-content-col">
+          <div class="modal-badges">
+            <span class="badge badge-gold modal-opus">N°</span>
+            <span class="badge modal-period">Époque</span>
+          </div>
+          <h3 class="modal-title">Titre de l'instrument</h3>
+          <div class="modal-price">Prix</div>
+          <p class="modal-desc">Description technique détaillée...</p>
+          <div class="modal-actions">
+            <a href="#" class="btn btn-gold modal-pdf-btn" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              <span>Consulter la Fiche PDF</span>
+            </a>
+            <a href="#" class="btn btn-outline modal-video-btn" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Voir la vidéo</span>
+            </a>
+            <a href="#contact" class="btn btn-primary modal-contact-btn">
+              Se renseigner
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script d'initialisation Vite -->
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>

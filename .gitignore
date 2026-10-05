@@ -1,0 +1,12 @@
+node_modules/
+dist/
+tmp/
+__pycache__/
+scraped_pages/
+screenshot_*.png
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+

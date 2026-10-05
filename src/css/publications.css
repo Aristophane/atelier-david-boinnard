@@ -1,0 +1,99 @@
+/* ==========================================================================
+   PUBLICATIONS & RECHERCHE ORGANOLOGIQUE - ATELIER DAVID BOINNARD
+   ========================================================================== */
+
+.publications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.pub-card {
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-spruce-border);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+}
+
+.pub-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-gold);
+  box-shadow: var(--shadow-lg);
+}
+
+.pub-media {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #211913;
+  overflow: hidden;
+}
+
+.pub-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-smooth);
+}
+
+.pub-card:hover .pub-img {
+  transform: scale(1.04);
+}
+
+.pub-year-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(22, 16, 11, 0.9);
+  color: var(--color-gold-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(200, 155, 60, 0.3);
+}
+
+.pub-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pub-type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-gold-deep);
+  margin-bottom: 0.4rem;
+}
+
+.pub-title {
+  font-size: 1.25rem;
+  color: var(--color-walnut-dark);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.pub-desc {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.pub-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-spruce-cream);
+}
